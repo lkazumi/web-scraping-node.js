@@ -1,0 +1,504 @@
+{
+  "data": [
+    {
+      "id": "198014-mrc-multi-racing-championship",
+      "title": "Multi Racing Championship",
+      "path": "/n64/198014-mrc-multi-racing-championship"
+    },
+    {
+      "id": "198022-mystical-ninja-starring-goemon",
+      "title": "Mystical Ninja starring Goemon",
+      "path": "/n64/198022-mystical-ninja-starring-goemon"
+    },
+    {
+      "id": "915334-goemons-great-adventure",
+      "title": "Mystical Ninja Starring Goemon 2",
+      "path": "/n64/915334-goemons-great-adventure"
+    },
+    {
+      "id": "198027-nagano-winter-olympics-98",
+      "title": "Nagano Winter Olympics '98",
+      "path": "/n64/198027-nagano-winter-olympics-98"
+    },
+    {
+      "id": "198030-namco-museum-64",
+      "title": "Namco Museum 64",
+      "path": "/n64/198030-namco-museum-64"
+    },
+    {
+      "id": "198038-nascar-2000",
+      "title": "NASCAR 2000",
+      "path": "/n64/198038-nascar-2000"
+    },
+    {
+      "id": "198042-nascar-99",
+      "title": "NASCAR 99",
+      "path": "/n64/198042-nascar-99"
+    },
+    {
+      "id": "198058-nba-courtside-2-featuring-kobe-bryant",
+      "title": "NBA Courtside 2 Featuring Kobe Bryant",
+      "path": "/n64/198058-nba-courtside-2-featuring-kobe-bryant"
+    },
+    {
+      "id": "198062-nba-hangtime",
+      "title": "NBA Hangtime",
+      "path": "/n64/198062-nba-hangtime"
+    },
+    {
+      "id": "198064-nba-in-the-zone-98",
+      "title": "NBA In The Zone '98",
+      "path": "/n64/198064-nba-in-the-zone-98"
+    },
+    {
+      "id": "198066-nba-in-the-zone-99",
+      "title": "NBA In The Zone '99",
+      "path": "/n64/198066-nba-in-the-zone-99"
+    },
+    {
+      "id": "198066-nba-in-the-zone-99",
+      "title": "NBA In The Zone 2",
+      "path": "/n64/198066-nba-in-the-zone-99"
+    },
+    {
+      "id": "258197-nba-in-the-zone-2000",
+      "title": "NBA In The Zone 2000",
+      "path": "/n64/258197-nba-in-the-zone-2000"
+    },
+    {
+      "id": "198070-nba-jam-2000",
+      "title": "NBA Jam 2000",
+      "path": "/n64/198070-nba-jam-2000"
+    },
+    {
+      "id": "198072-nba-jam-99",
+      "title": "NBA Jam 99",
+      "path": "/n64/198072-nba-jam-99"
+    },
+    {
+      "id": "198077-nba-live-2000",
+      "title": "NBA Live 2000",
+      "path": "/n64/198077-nba-live-2000"
+    },
+    {
+      "id": "198086-nba-live-99",
+      "title": "NBA Live 99",
+      "path": "/n64/198086-nba-live-99"
+    },
+    {
+      "id": "198064-nba-in-the-zone-98",
+      "title": "NBA Pro 98",
+      "path": "/n64/198064-nba-in-the-zone-98"
+    },
+    {
+      "id": "198066-nba-in-the-zone-99",
+      "title": "NBA Pro 99",
+      "path": "/n64/198066-nba-in-the-zone-99"
+    },
+    {
+      "id": "198092-nba-showtime-nba-on-nbc",
+      "title": "NBA Showtime: NBA on NBC",
+      "path": "/n64/198092-nba-showtime-nba-on-nbc"
+    },
+    {
+      "id": "198127-neon-genesis-evangelion",
+      "title": "Neon Genesis Evangelion",
+      "path": "/n64/198127-neon-genesis-evangelion"
+    },
+    {
+      "id": "198976-the-new-tetris",
+      "title": "New Tetris, The",
+      "path": "/n64/198976-the-new-tetris"
+    },
+    {
+      "id": "198141-nfl-blitz",
+      "title": "NFL Blitz",
+      "path": "/n64/198141-nfl-blitz"
+    },
+    {
+      "id": "198145-nfl-blitz-2000",
+      "title": "NFL Blitz 2000",
+      "path": "/n64/198145-nfl-blitz-2000"
+    },
+    {
+      "id": "376261-nfl-blitz-2001",
+      "title": "NFL Blitz 2001",
+      "path": "/n64/376261-nfl-blitz-2001"
+    },
+    {
+      "id": "569431-nfl-blitz-special-edition",
+      "title": "NFL Blitz Special Edition",
+      "path": "/n64/569431-nfl-blitz-special-edition"
+    },
+    {
+      "id": "198158-nfl-qb-club-2001",
+      "title": "NFL QB Club 2001",
+      "path": "/n64/198158-nfl-qb-club-2001"
+    },
+    {
+      "id": "198156-nfl-quarterback-club-2000",
+      "title": "NFL Quarterback Club 2000",
+      "path": "/n64/198156-nfl-quarterback-club-2000"
+    },
+    {
+      "id": "198160-nfl-quarterback-club-98",
+      "title": "NFL Quarterback Club 98",
+      "path": "/n64/198160-nfl-quarterback-club-98"
+    },
+    {
+      "id": "198161-nfl-quarterback-club-99",
+      "title": "NFL Quarterback Club 99",
+      "path": "/n64/198161-nfl-quarterback-club-99"
+    },
+    {
+      "id": "198175-nhl-99",
+      "title": "NHL 99",
+      "path": "/n64/198175-nhl-99"
+    },
+    {
+      "id": "366925-nhl-blades-of-steel-99",
+      "title": "NHL Blades of Steel '99",
+      "path": "/n64/366925-nhl-blades-of-steel-99"
+    },
+    {
+      "id": "576264-nhl-blades-of-steel-2000",
+      "title": "NHL Blades of Steel 2000",
+      "path": "/n64/576264-nhl-blades-of-steel-2000"
+    },
+    {
+      "id": "198179-nhl-breakaway-98",
+      "title": "NHL Breakaway 98",
+      "path": "/n64/198179-nhl-breakaway-98"
+    },
+    {
+      "id": "198181-nhl-breakaway-99",
+      "title": "NHL Breakaway 99",
+      "path": "/n64/198181-nhl-breakaway-99"
+    },
+    {
+      "id": "366925-nhl-blades-of-steel-99",
+      "title": "NHL Pro 99",
+      "path": "/n64/366925-nhl-blades-of-steel-99"
+    },
+    {
+      "id": "198197-nightmare-creatures",
+      "title": "Nightmare Creatures",
+      "path": "/n64/198197-nightmare-creatures"
+    },
+    {
+      "id": "576856-nintama-rantarou-64-game-gallery",
+      "title": "Nintama Rantarou 64 Game Gallery",
+      "path": "/n64/576856-nintama-rantarou-64-game-gallery"
+    },
+    {
+      "id": "916387-nintendo-64",
+      "title": "Nintendo 64",
+      "path": "/n64/916387-nintendo-64"
+    },
+    {
+      "id": "916387-nintendo-64",
+      "title": "Nintendo 64 Hardware",
+      "path": "/n64/916387-nintendo-64"
+    },
+    {
+      "id": "198854-super-smash-bros",
+      "title": "Nintendo All-Star Dairantou Smash Brothers",
+      "path": "/n64/198854-super-smash-bros"
+    },
+    {
+      "id": "198217-nuclear-strike-64",
+      "title": "Nuclear Strike 64",
+      "path": "/n64/198217-nuclear-strike-64"
+    },
+    {
+      "id": "576250-nushi-tsuri-64",
+      "title": "Nushi Tsuri 64",
+      "path": "/n64/576250-nushi-tsuri-64"
+    },
+    {
+      "id": "577049-nushi-tsuri-64-shiokaze-ni-notte",
+      "title": "Nushi Tsuri 64: Shiokaze Ni Notte",
+      "path": "/n64/577049-nushi-tsuri-64-shiokaze-ni-notte"
+    },
+    {
+      "id": "112372-odt-escape-or-die-trying",
+      "title": "O.D.T.: Escape... Or Die Trying",
+      "path": "/n64/112372-odt-escape-or-die-trying"
+    },
+    {
+      "id": "198228-off-road-challenge",
+      "title": "Off Road Challenge",
+      "path": "/n64/198228-off-road-challenge"
+    },
+    {
+      "id": "198230-ogre-battle-64-person-of-lordly-caliber",
+      "title": "Ogre Battle 64: Person of Lordly Caliber",
+      "path": "/n64/198230-ogre-battle-64-person-of-lordly-caliber"
+    },
+    {
+      "id": "198232-olympic-hockey-98",
+      "title": "Olympic Hockey 98",
+      "path": "/n64/198232-olympic-hockey-98"
+    },
+    {
+      "id": "198232-olympic-hockey-98",
+      "title": "Olympic Hockey Nagano '98",
+      "path": "/n64/198232-olympic-hockey-98"
+    },
+    {
+      "id": "576677-onegai-monsters",
+      "title": "Onegai Monsters",
+      "path": "/n64/576677-onegai-monsters"
+    },
+    {
+      "id": "199307-winback-covert-operations",
+      "title": "Operation WinBack",
+      "path": "/n64/199307-winback-covert-operations"
+    },
+    {
+      "id": "574523-pachinko-365-nichi",
+      "title": "Pachinko 365 Nichi",
+      "path": "/n64/574523-pachinko-365-nichi"
+    },
+    {
+      "id": "198849-paper-mario",
+      "title": "Paper Mario",
+      "path": "/n64/198849-paper-mario"
+    },
+    {
+      "id": "198263-paperboy",
+      "title": "Paperboy",
+      "path": "/n64/198263-paperboy"
+    },
+    {
+      "id": "576259-parlor-pro-64",
+      "title": "Parlor! Pro 64",
+      "path": "/n64/576259-parlor-pro-64"
+    },
+    {
+      "id": "576259-parlor-pro-64",
+      "title": "Parlor! Pro 64: Pachinko Jikki Simulation Game",
+      "path": "/n64/576259-parlor-pro-64"
+    },
+    {
+      "id": "576671-pd-ultraman-battle-collection-64",
+      "title": "PD Ultraman Battle Collection 64",
+      "path": "/n64/576671-pd-ultraman-battle-collection-64"
+    },
+    {
+      "id": "198272-penny-racers",
+      "title": "Penny Racers",
+      "path": "/n64/198272-penny-racers"
+    },
+    {
+      "id": "198275-perfect-dark",
+      "title": "Perfect Dark",
+      "path": "/n64/198275-perfect-dark"
+    },
+    {
+      "id": "198280-pga-european-tour",
+      "title": "PGA European Tour",
+      "path": "/n64/198280-pga-european-tour"
+    },
+    {
+      "id": "198280-pga-european-tour",
+      "title": "PGA European Tour Golf",
+      "path": "/n64/198280-pga-european-tour"
+    },
+    {
+      "id": "250595-hey-you-pikachu",
+      "title": "Pikachu Genki Dechu",
+      "path": "/n64/250595-hey-you-pikachu"
+    },
+    {
+      "id": "916387-nintendo-64",
+      "title": "Pikachu Nintendo 64 Hardware",
+      "path": "/n64/916387-nintendo-64"
+    },
+    {
+      "id": "198292-pilotwings-64",
+      "title": "Pilotwings 64",
+      "path": "/n64/198292-pilotwings-64"
+    },
+    {
+      "id": "574524-pokemon-stadium-japan",
+      "title": "Pocket Monsters Stadium",
+      "path": "/n64/574524-pokemon-stadium-japan"
+    },
+    {
+      "id": "198312-pokemon-stadium",
+      "title": "Pocket Monsters Stadium 2",
+      "path": "/n64/198312-pokemon-stadium"
+    },
+    {
+      "id": "913924-pokemon-puzzle-league",
+      "title": "Pokemon Puzzle League",
+      "path": "/n64/913924-pokemon-puzzle-league"
+    },
+    {
+      "id": "198311-pokemon-snap",
+      "title": "Pokemon Snap",
+      "path": "/n64/198311-pokemon-snap"
+    },
+    {
+      "id": "574524-pokemon-stadium-japan",
+      "title": "Pokemon Stadium",
+      "path": "/n64/574524-pokemon-stadium-japan"
+    },
+    {
+      "id": "198312-pokemon-stadium",
+      "title": "Pokemon Stadium",
+      "path": "/n64/198312-pokemon-stadium"
+    },
+    {
+      "id": "452036-pokemon-stadium-2",
+      "title": "Pokemon Stadium 2",
+      "path": "/n64/452036-pokemon-stadium-2"
+    },
+    {
+      "id": "452036-pokemon-stadium-2",
+      "title": "Pokemon Stadium Kin Gin Crystal Version",
+      "path": "/n64/452036-pokemon-stadium-2"
+    },
+    {
+      "id": "256695-polaris-snocross",
+      "title": "Polaris SnoCross",
+      "path": "/n64/256695-polaris-snocross"
+    },
+    {
+      "id": "574525-power-league-64",
+      "title": "Power League 64",
+      "path": "/n64/574525-power-league-64"
+    },
+    {
+      "id": "532474-the-powerpuff-girls-chemical-x-traction",
+      "title": "Powerpuff Girls: Chemical X-Traction, The",
+      "path": "/n64/532474-the-powerpuff-girls-chemical-x-traction"
+    },
+    {
+      "id": "578921-premier-manager-64",
+      "title": "Premier Manager 64",
+      "path": "/n64/578921-premier-manager-64"
+    },
+    {
+      "id": "574528-pro-mahjong-kiwame-64",
+      "title": "Pro Mahjong Kiwame 64",
+      "path": "/n64/574528-pro-mahjong-kiwame-64"
+    },
+    {
+      "id": "576665-pro-mahjong-tsuwamono-64",
+      "title": "Pro Mahjong Tsuwamono 64",
+      "path": "/n64/576665-pro-mahjong-tsuwamono-64"
+    },
+    {
+      "id": "576665-pro-mahjong-tsuwamono-64",
+      "title": "Pro Mahjong Tsuwamono 64: Jansou Battle ni Chousen",
+      "path": "/n64/576665-pro-mahjong-tsuwamono-64"
+    },
+    {
+      "id": "574529-puyo-puyo-sun-64",
+      "title": "Puyo Puyo Sun 64",
+      "path": "/n64/574529-puyo-puyo-sun-64"
+    },
+    {
+      "id": "576484-puyo-puyon-party",
+      "title": "Puyo Puyo~n Party",
+      "path": "/n64/576484-puyo-puyon-party"
+    },
+    {
+      "id": "196850-bust-a-move-99",
+      "title": "Puzzle Bobble 64",
+      "path": "/n64/196850-bust-a-move-99"
+    },
+    {
+      "id": "198375-quake",
+      "title": "Quake",
+      "path": "/n64/198375-quake"
+    },
+    {
+      "id": "198378-quake-ii",
+      "title": "Quake II",
+      "path": "/n64/198378-quake-ii"
+    },
+    {
+      "id": "198386-quest-64",
+      "title": "Quest 64",
+      "path": "/n64/198386-quest-64"
+    },
+    {
+      "id": "197968-monaco-grand-prix",
+      "title": "Racing Simulation 2",
+      "path": "/n64/197968-monaco-grand-prix"
+    },
+    {
+      "id": "562842-rakuga-kids",
+      "title": "Rakuga Kids",
+      "path": "/n64/562842-rakuga-kids"
+    },
+    {
+      "id": "354052-rally-challenge-2000",
+      "title": "Rally '99",
+      "path": "/n64/354052-rally-challenge-2000"
+    },
+    {
+      "id": "354052-rally-challenge-2000",
+      "title": "Rally Challenge 2000",
+      "path": "/n64/354052-rally-challenge-2000"
+    },
+    {
+      "id": "198408-rampage-2-universal-tour",
+      "title": "Rampage 2: Universal Tour",
+      "path": "/n64/198408-rampage-2-universal-tour"
+    },
+    {
+      "id": "198410-rampage-world-tour",
+      "title": "Rampage World Tour",
+      "path": "/n64/198410-rampage-world-tour"
+    },
+    {
+      "id": "198414-rat-attack",
+      "title": "Rat Attack",
+      "path": "/n64/198414-rat-attack"
+    },
+    {
+      "id": "198414-rat-attack",
+      "title": "Rat Attack!",
+      "path": "/n64/198414-rat-attack"
+    },
+    {
+      "id": "198423-rayman-2-the-great-escape",
+      "title": "Rayman 2: The Great Escape",
+      "path": "/n64/198423-rayman-2-the-great-escape"
+    },
+    {
+      "id": "915333-rugrats-scavenger-hunt",
+      "title": "Razmoket, Les - La Chasse aux Tresors",
+      "path": "/n64/915333-rugrats-scavenger-hunt"
+    },
+    {
+      "id": "567306-razor-freestyle-scooter",
+      "title": "Razor Freestyle Scooter",
+      "path": "/n64/567306-razor-freestyle-scooter"
+    },
+    {
+      "id": "198471-re-volt",
+      "title": "Re-Volt",
+      "path": "/n64/198471-re-volt"
+    },
+    {
+      "id": "198429-ready-2-rumble-boxing",
+      "title": "Ready 2 Rumble Boxing",
+      "path": "/n64/198429-ready-2-rumble-boxing"
+    },
+    {
+      "id": "437242-ready-2-rumble-boxing-round-2",
+      "title": "Ready 2 Rumble Boxing: Round 2",
+      "path": "/n64/437242-ready-2-rumble-boxing-round-2"
+    },
+    {
+      "id": "198457-resident-evil-2",
+      "title": "Resident Evil 2",
+      "path": "/n64/198457-resident-evil-2"
+    }
+  ]
+}

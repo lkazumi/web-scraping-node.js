@@ -1,0 +1,504 @@
+{
+  "data": [
+    {
+      "id": "914163-007-the-world-is-not-enough",
+      "title": "007: The World Is Not Enough",
+      "path": "/n64/914163-007-the-world-is-not-enough"
+    },
+    {
+      "id": "196500-1080-teneighty-snowboarding",
+      "title": "1080: TenEighty Snowboarding",
+      "path": "/n64/196500-1080-teneighty-snowboarding"
+    },
+    {
+      "id": "123836-40-winks",
+      "title": "40 Winks",
+      "path": "/n64/123836-40-winks"
+    },
+    {
+      "id": "574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world",
+      "title": "64 de Hakken!  Tamagotchi Minna de Tamagotchi World",
+      "path": "/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world"
+    },
+    {
+      "id": "576663-64-hanafuda-tenshi-no-yakusoku",
+      "title": "64 Hanafuda: Tenshi no Yakusoku",
+      "path": "/n64/576663-64-hanafuda-tenshi-no-yakusoku"
+    },
+    {
+      "id": "198845-64-oozumou",
+      "title": "64 Oozumou",
+      "path": "/n64/198845-64-oozumou"
+    },
+    {
+      "id": "576682-64-oozumou-2",
+      "title": "64 Oozumou 2",
+      "path": "/n64/576682-64-oozumou-2"
+    },
+    {
+      "id": "574503-64-trump-collection-alice-no-waku-waku-trump-world",
+      "title": "64 Trump Collection: Alice no Waku Waku Trump World",
+      "path": "/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world"
+    },
+    {
+      "id": "196549-aero-fighters-assault",
+      "title": "Aero Fighters Assault",
+      "path": "/n64/196549-aero-fighters-assault"
+    },
+    {
+      "id": "196550-aerogauge",
+      "title": "AeroGauge",
+      "path": "/n64/196550-aerogauge"
+    },
+    {
+      "id": "576255-ai-shogi-3",
+      "title": "AI Shogi 3",
+      "path": "/n64/576255-ai-shogi-3"
+    },
+    {
+      "id": "196565-aidyn-chronicles-the-first-mage",
+      "title": "Aidyn Chronicles: The First Mage",
+      "path": "/n64/196565-aidyn-chronicles-the-first-mage"
+    },
+    {
+      "id": "574480-airboarder-64",
+      "title": "AirBoarder 64",
+      "path": "/n64/574480-airboarder-64"
+    },
+    {
+      "id": "574480-airboarder-64",
+      "title": "AirBoardin' USA",
+      "path": "/n64/574480-airboarder-64"
+    },
+    {
+      "id": "196882-castlevania",
+      "title": "Akumajou Dracula Mokushiroku",
+      "path": "/n64/196882-castlevania"
+    },
+    {
+      "id": "196883-castlevania-legacy-of-darkness",
+      "title": "Akumajou Dracula Mokushiroku Gaiden: Legend of Cornell",
+      "path": "/n64/196883-castlevania-legacy-of-darkness"
+    },
+    {
+      "id": "196587-all-star-tennis-99",
+      "title": "All Star Tennis '99",
+      "path": "/n64/196587-all-star-tennis-99"
+    },
+    {
+      "id": "196587-all-star-tennis-99",
+      "title": "All Star Tennis 99",
+      "path": "/n64/196587-all-star-tennis-99"
+    },
+    {
+      "id": "196592-all-star-baseball-2000",
+      "title": "All-Star Baseball 2000",
+      "path": "/n64/196592-all-star-baseball-2000"
+    },
+    {
+      "id": "250563-all-star-baseball-2001",
+      "title": "All-Star Baseball 2001",
+      "path": "/n64/250563-all-star-baseball-2001"
+    },
+    {
+      "id": "196585-all-star-baseball-99",
+      "title": "All-Star Baseball 99",
+      "path": "/n64/196585-all-star-baseball-99"
+    },
+    {
+      "id": "196641-armorines-project-swarm",
+      "title": "Armorines: Project S.W.A.R.M.",
+      "path": "/n64/196641-armorines-project-swarm"
+    },
+    {
+      "id": "196647-army-men-air-combat",
+      "title": "Army Men: Air Combat",
+      "path": "/n64/196647-army-men-air-combat"
+    },
+    {
+      "id": "196649-army-men-sarges-heroes",
+      "title": "Army Men: Sarge's Heroes",
+      "path": "/n64/196649-army-men-sarges-heroes"
+    },
+    {
+      "id": "340233-army-men-sarges-heroes-2",
+      "title": "Army Men: Sarge's Heroes 2",
+      "path": "/n64/340233-army-men-sarges-heroes-2"
+    },
+    {
+      "id": "196751-beetle-adventure-racing",
+      "title": "As Aventuras do Fusca!",
+      "path": "/n64/196751-beetle-adventure-racing"
+    },
+    {
+      "id": "196661-asteroids-hyper-64",
+      "title": "Asteroids Hyper 64",
+      "path": "/n64/196661-asteroids-hyper-64"
+    },
+    {
+      "id": "196671-automobili-lamborghini",
+      "title": "Automobili Lamborghini",
+      "path": "/n64/196671-automobili-lamborghini"
+    },
+    {
+      "id": "196671-automobili-lamborghini",
+      "title": "Automobili Lamborghini: Super Speed Race 64",
+      "path": "/n64/196671-automobili-lamborghini"
+    },
+    {
+      "id": "196799-bomberman-64",
+      "title": "Baku Bomberman",
+      "path": "/n64/196799-bomberman-64"
+    },
+    {
+      "id": "257793-bomberman-64-the-second-attack",
+      "title": "Baku Bomberman 2",
+      "path": "/n64/257793-bomberman-64-the-second-attack"
+    },
+    {
+      "id": "196684-bakuretsu-muteki-bangai-o",
+      "title": "Bakuretsu Muteki Bangai-O",
+      "path": "/n64/196684-bakuretsu-muteki-bangai-o"
+    },
+    {
+      "id": "576256-bakushou-jinsei-64-mezase-resort-ou",
+      "title": "Bakushou Jinsei 64: Mezase! Resort Ou",
+      "path": "/n64/576256-bakushou-jinsei-64-mezase-resort-ou"
+    },
+    {
+      "id": "196694-banjo-kazooie",
+      "title": "Banjo to Kazooie no Daibouken",
+      "path": "/n64/196694-banjo-kazooie"
+    },
+    {
+      "id": "196695-banjo-tooie",
+      "title": "Banjo to Kazooie no Daibouken 2",
+      "path": "/n64/196695-banjo-tooie"
+    },
+    {
+      "id": "196694-banjo-kazooie",
+      "title": "Banjo-Kazooie",
+      "path": "/n64/196694-banjo-kazooie"
+    },
+    {
+      "id": "196695-banjo-tooie",
+      "title": "Banjo-Tooie",
+      "path": "/n64/196695-banjo-tooie"
+    },
+    {
+      "id": "197634-in-fisherman-bass-hunter-64",
+      "title": "Bass Hunter 64",
+      "path": "/n64/197634-in-fisherman-bass-hunter-64"
+    },
+    {
+      "id": "577048-bass-rush",
+      "title": "Bass Rush",
+      "path": "/n64/577048-bass-rush"
+    },
+    {
+      "id": "577048-bass-rush",
+      "title": "Bass Rush: EcoGear PowerWorm Championship",
+      "path": "/n64/577048-bass-rush"
+    },
+    {
+      "id": "196707-bassmasters-2000",
+      "title": "Bassmasters 2000",
+      "path": "/n64/196707-bassmasters-2000"
+    },
+    {
+      "id": "579006-batman-beyond-return-of-the-joker",
+      "title": "Batman Beyond: Return of the Joker",
+      "path": "/n64/579006-batman-beyond-return-of-the-joker"
+    },
+    {
+      "id": "579006-batman-beyond-return-of-the-joker",
+      "title": "Batman Do Futuro: O Retorno Do Coringa",
+      "path": "/n64/579006-batman-beyond-return-of-the-joker"
+    },
+    {
+      "id": "579006-batman-beyond-return-of-the-joker",
+      "title": "Batman of the Future: Return of the Joker",
+      "path": "/n64/579006-batman-beyond-return-of-the-joker"
+    },
+    {
+      "id": "196733-battletanx",
+      "title": "BattleTanx",
+      "path": "/n64/196733-battletanx"
+    },
+    {
+      "id": "196734-battletanx-global-assault",
+      "title": "BattleTanx: Global Assault",
+      "path": "/n64/196734-battletanx-global-assault"
+    },
+    {
+      "id": "196739-battlezone-rise-of-the-black-dogs",
+      "title": "Battlezone: Rise of the Black Dogs",
+      "path": "/n64/196739-battlezone-rise-of-the-black-dogs"
+    },
+    {
+      "id": "196751-beetle-adventure-racing",
+      "title": "Beetle Adventure Racing",
+      "path": "/n64/196751-beetle-adventure-racing"
+    },
+    {
+      "id": "196757-big-mountain-2000",
+      "title": "Big Mountain 2000",
+      "path": "/n64/196757-big-mountain-2000"
+    },
+    {
+      "id": "196759-bio-freaks",
+      "title": "Bio FREAKS",
+      "path": "/n64/196759-bio-freaks"
+    },
+    {
+      "id": "198457-resident-evil-2",
+      "title": "BioHazard 2",
+      "path": "/n64/198457-resident-evil-2"
+    },
+    {
+      "id": "284235-blade-and-barrel",
+      "title": "Blade & Barrel",
+      "path": "/n64/284235-blade-and-barrel"
+    },
+    {
+      "id": "196774-blast-corps",
+      "title": "Blast Corps",
+      "path": "/n64/196774-blast-corps"
+    },
+    {
+      "id": "196774-blast-corps",
+      "title": "Blast Dozer",
+      "path": "/n64/196774-blast-corps"
+    },
+    {
+      "id": "196792-blues-brothers-2000",
+      "title": "Blues Brothers 2000",
+      "path": "/n64/196792-blues-brothers-2000"
+    },
+    {
+      "id": "196796-body-harvest",
+      "title": "Body Harvest",
+      "path": "/n64/196796-body-harvest"
+    },
+    {
+      "id": "197528-harvest-moon-64",
+      "title": "Bokujou Monogatari 2",
+      "path": "/n64/197528-harvest-moon-64"
+    },
+    {
+      "id": "196799-bomberman-64",
+      "title": "Bomberman 64",
+      "path": "/n64/196799-bomberman-64"
+    },
+    {
+      "id": "924863-bomberman-64-japan",
+      "title": "Bomberman 64",
+      "path": "/n64/924863-bomberman-64-japan"
+    },
+    {
+      "id": "257793-bomberman-64-the-second-attack",
+      "title": "Bomberman 64: The Second Attack!",
+      "path": "/n64/257793-bomberman-64-the-second-attack"
+    },
+    {
+      "id": "196801-bomberman-hero",
+      "title": "Bomberman Hero",
+      "path": "/n64/196801-bomberman-hero"
+    },
+    {
+      "id": "196801-bomberman-hero",
+      "title": "Bomberman Hero: Milian Oujo o Sukue!",
+      "path": "/n64/196801-bomberman-hero"
+    },
+    {
+      "id": "575340-bottom-of-the-9th",
+      "title": "Bottom of the 9th",
+      "path": "/n64/575340-bottom-of-the-9th"
+    },
+    {
+      "id": "197746-knockout-kings-2000",
+      "title": "Box Champions 2000",
+      "path": "/n64/197746-knockout-kings-2000"
+    },
+    {
+      "id": "915910-brunswick-circuit-pro-bowling",
+      "title": "Brunswick Circuit Pro Bowling",
+      "path": "/n64/915910-brunswick-circuit-pro-bowling"
+    },
+    {
+      "id": "196835-buck-bumble",
+      "title": "Buck Bumble",
+      "path": "/n64/196835-buck-bumble"
+    },
+    {
+      "id": "196523-a-bugs-life",
+      "title": "Bug's Life, A",
+      "path": "/n64/196523-a-bugs-life"
+    },
+    {
+      "id": "196850-bust-a-move-99",
+      "title": "Bust-A-Move '99",
+      "path": "/n64/196850-bust-a-move-99"
+    },
+    {
+      "id": "196853-bust-a-move-2-arcade-edition",
+      "title": "Bust-A-Move 2 Arcade Edition",
+      "path": "/n64/196853-bust-a-move-2-arcade-edition"
+    },
+    {
+      "id": "196850-bust-a-move-99",
+      "title": "Bust-A-Move 3 DX",
+      "path": "/n64/196850-bust-a-move-99"
+    },
+    {
+      "id": "196863-california-speed",
+      "title": "California Speed",
+      "path": "/n64/196863-california-speed"
+    },
+    {
+      "id": "196871-carmageddon-64",
+      "title": "Carmageddon 64",
+      "path": "/n64/196871-carmageddon-64"
+    },
+    {
+      "id": "196882-castlevania",
+      "title": "Castlevania",
+      "path": "/n64/196882-castlevania"
+    },
+    {
+      "id": "196883-castlevania-legacy-of-darkness",
+      "title": "Castlevania: Legacy of Darkness",
+      "path": "/n64/196883-castlevania-legacy-of-darkness"
+    },
+    {
+      "id": "576247-lets-smash",
+      "title": "Centre Court Tennis",
+      "path": "/n64/576247-lets-smash"
+    },
+    {
+      "id": "196896-chameleon-twist",
+      "title": "Chameleon Twist",
+      "path": "/n64/196896-chameleon-twist"
+    },
+    {
+      "id": "196897-chameleon-twist-2",
+      "title": "Chameleon Twist 2",
+      "path": "/n64/196897-chameleon-twist-2"
+    },
+    {
+      "id": "196901-charlie-blasts-territory",
+      "title": "Charlie Blast's Territory",
+      "path": "/n64/196901-charlie-blasts-territory"
+    },
+    {
+      "id": "196913-chopper-attack",
+      "title": "Chopper Attack",
+      "path": "/n64/196913-chopper-attack"
+    },
+    {
+      "id": "198272-penny-racers",
+      "title": "Choro Q 64",
+      "path": "/n64/198272-penny-racers"
+    },
+    {
+      "id": "576600-choro-q-64-2",
+      "title": "Choro Q 64 2",
+      "path": "/n64/576600-choro-q-64-2"
+    },
+    {
+      "id": "576600-choro-q-64-2",
+      "title": "Choro Q 64 2: Hacha Mecha Grand Prix Race",
+      "path": "/n64/576600-choro-q-64-2"
+    },
+    {
+      "id": "198684-snowboard-kids-2",
+      "title": "Chou Snobow Kids",
+      "path": "/n64/198684-snowboard-kids-2"
+    },
+    {
+      "id": "574506-chou-kuukan-night-pro-yakyuu-king",
+      "title": "Chou-Kuukan Night Pro Yakyuu King",
+      "path": "/n64/574506-chou-kuukan-night-pro-yakyuu-king"
+    },
+    {
+      "id": "576680-chou-kuukan-night-pro-yakyuu-king-2",
+      "title": "Chou-Kuukan Night Pro Yakyuu King 2",
+      "path": "/n64/576680-chou-kuukan-night-pro-yakyuu-king-2"
+    },
+    {
+      "id": "197500-gt-64-championship-edition",
+      "title": "City Tour Grand Prix: Zen Nihon GT Senshuken",
+      "path": "/n64/197500-gt-64-championship-edition"
+    },
+    {
+      "id": "196934-clayfighter-63-1-3",
+      "title": "ClayFighter 63 1/3",
+      "path": "/n64/196934-clayfighter-63-1-3"
+    },
+    {
+      "id": "574483-clayfighter-the-sculptors-cut",
+      "title": "ClayFighter: The Sculptor's Cut",
+      "path": "/n64/574483-clayfighter-the-sculptors-cut"
+    },
+    {
+      "id": "196958-command-and-conquer",
+      "title": "Command & Conquer",
+      "path": "/n64/196958-command-and-conquer"
+    },
+    {
+      "id": "196973-conkers-bad-fur-day",
+      "title": "Conker's Bad Fur Day",
+      "path": "/n64/196973-conkers-bad-fur-day"
+    },
+    {
+      "id": "199325-world-cup-98",
+      "title": "Copa del Mundo: Francia 98",
+      "path": "/n64/199325-world-cup-98"
+    },
+    {
+      "id": "199325-world-cup-98",
+      "title": "Copa Do Mundo 98",
+      "path": "/n64/199325-world-cup-98"
+    },
+    {
+      "id": "199325-world-cup-98",
+      "title": "Coupe du Monde 98",
+      "path": "/n64/199325-world-cup-98"
+    },
+    {
+      "id": "374847-cruisn-exotica",
+      "title": "Cruis'n  Exotica",
+      "path": "/n64/374847-cruisn-exotica"
+    },
+    {
+      "id": "197003-cruisn-usa",
+      "title": "Cruis'n USA",
+      "path": "/n64/197003-cruisn-usa"
+    },
+    {
+      "id": "197004-cruisn-world",
+      "title": "Cruis'n World",
+      "path": "/n64/197004-cruisn-world"
+    },
+    {
+      "id": "197016-custom-robo",
+      "title": "Custom Robo",
+      "path": "/n64/197016-custom-robo"
+    },
+    {
+      "id": "374873-custom-robo-v2",
+      "title": "Custom Robo V2",
+      "path": "/n64/374873-custom-robo-v2"
+    },
+    {
+      "id": "197025-cybertiger",
+      "title": "CyberTiger",
+      "path": "/n64/197025-cybertiger"
+    },
+    {
+      "id": "250578-duck-dodgers-starring-daffy-duck",
+      "title": "Daffy Duck Starring As Duck Dodgers",
+      "path": "/n64/250578-duck-dodgers-starring-daffy-duck"
+    }
+  ]
+}

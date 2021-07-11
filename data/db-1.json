@@ -1,0 +1,504 @@
+{
+  "data": [
+    {
+      "id": "562992-dance-dance-revolution-featuring-disney-characters",
+      "title": "Dance Dance Revolution Disney Dancing Museum",
+      "path": "/n64/562992-dance-dance-revolution-featuring-disney-characters"
+    },
+    {
+      "id": "562992-dance-dance-revolution-featuring-disney-characters",
+      "title": "Dance Dance Revolution featuring Disney Characters",
+      "path": "/n64/562992-dance-dance-revolution-featuring-disney-characters"
+    },
+    {
+      "id": "197049-dark-rift",
+      "title": "Dark Rift",
+      "path": "/n64/197049-dark-rift"
+    },
+    {
+      "id": "284236-dead-ahead-cancelled",
+      "title": "Dead Ahead",
+      "path": "/n64/284236-dead-ahead-cancelled"
+    },
+    {
+      "id": "197070-deadly-arts",
+      "title": "Deadly Arts",
+      "path": "/n64/197070-deadly-arts"
+    },
+    {
+      "id": "575848-densha-de-go-64",
+      "title": "Densha de Go! 64",
+      "path": "/n64/575848-densha-de-go-64"
+    },
+    {
+      "id": "580691-derby-stallion-64",
+      "title": "Derby Stallion 64",
+      "path": "/n64/580691-derby-stallion-64"
+    },
+    {
+      "id": "197105-destruction-derby-64",
+      "title": "Destruction Derby 64",
+      "path": "/n64/197105-destruction-derby-64"
+    },
+    {
+      "id": "574507-dezaemon-3d",
+      "title": "Dezaemon 3D",
+      "path": "/n64/574507-dezaemon-3d"
+    },
+    {
+      "id": "197118-diddy-kong-racing",
+      "title": "Diddy Kong Racing",
+      "path": "/n64/197118-diddy-kong-racing"
+    },
+    {
+      "id": "207039-die-hard-64",
+      "title": "Die Hard 64",
+      "path": "/n64/207039-die-hard-64"
+    },
+    {
+      "id": "913955-dinosaur-planet",
+      "title": "Dinosaur Planet",
+      "path": "/n64/913955-dinosaur-planet"
+    },
+    {
+      "id": "914358-disneys-donald-duck-goin-quackers",
+      "title": "Disney's Donald Duck Goin' Quackers",
+      "path": "/n64/914358-disneys-donald-duck-goin-quackers"
+    },
+    {
+      "id": "914358-disneys-donald-duck-goin-quackers",
+      "title": "Disney's Donald Duck: Goin' Quackers",
+      "path": "/n64/914358-disneys-donald-duck-goin-quackers"
+    },
+    {
+      "id": "914358-disneys-donald-duck-goin-quackers",
+      "title": "Disney's Donald Duck: Quack Attack",
+      "path": "/n64/914358-disneys-donald-duck-goin-quackers"
+    },
+    {
+      "id": "198890-disneys-tarzan",
+      "title": "Disney's Tarzan",
+      "path": "/n64/198890-disneys-tarzan"
+    },
+    {
+      "id": "199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue",
+      "title": "Disney/Pixar Toy Story 2 - Buzz l'Eclair a la Rescousse!",
+      "path": "/n64/199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue"
+    },
+    {
+      "id": "199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue",
+      "title": "Disney/Pixar Toy Story 2 - Captain Buzz Lightyear auf Rettungsmission!",
+      "path": "/n64/199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue"
+    },
+    {
+      "id": "199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue",
+      "title": "Disney/Pixar Toy Story 2: Buzz Lightyear to the Rescue",
+      "path": "/n64/199097-disney-pixar-toy-story-2-buzz-lightyear-to-the-rescue"
+    },
+    {
+      "id": "579007-doubutsu-no-mori",
+      "title": "Dongwu Senlin",
+      "path": "/n64/579007-doubutsu-no-mori"
+    },
+    {
+      "id": "191702-donkey-kong-64",
+      "title": "Donkey Kong 64",
+      "path": "/n64/191702-donkey-kong-64"
+    },
+    {
+      "id": "197141-doom-64",
+      "title": "DOOM 64",
+      "path": "/n64/197141-doom-64"
+    },
+    {
+      "id": "197143-doraemon-nobita-to-3-tsu-no-seireiseki",
+      "title": "Doraemon",
+      "path": "/n64/197143-doraemon-nobita-to-3-tsu-no-seireiseki"
+    },
+    {
+      "id": "576254-doraemon-2-nobita-to-hikari-no-shinden",
+      "title": "Doraemon 2: Nobita to Hikari no Shinden",
+      "path": "/n64/576254-doraemon-2-nobita-to-hikari-no-shinden"
+    },
+    {
+      "id": "577493-doraemon-3-nobita-no-machi-sos",
+      "title": "Doraemon 3: Nobita no Machi SOS!",
+      "path": "/n64/577493-doraemon-3-nobita-no-machi-sos"
+    },
+    {
+      "id": "197143-doraemon-nobita-to-3-tsu-no-seireiseki",
+      "title": "Doraemon: Nobita to 3 Tsu no Seireiseki",
+      "path": "/n64/197143-doraemon-nobita-to-3-tsu-no-seireiseki"
+    },
+    {
+      "id": "321688-doubutsu-banchou",
+      "title": "Doubutsu Banchou",
+      "path": "/n64/321688-doubutsu-banchou"
+    },
+    {
+      "id": "579007-doubutsu-no-mori",
+      "title": "Doubutsu no Mori",
+      "path": "/n64/579007-doubutsu-no-mori"
+    },
+    {
+      "id": "459840-dr-mario-64",
+      "title": "Dr. Mario 64",
+      "path": "/n64/459840-dr-mario-64"
+    },
+    {
+      "id": "605334-dragon-sword-64",
+      "title": "Dragon Sword 64",
+      "path": "/n64/605334-dragon-sword-64"
+    },
+    {
+      "id": "197169-dual-heroes",
+      "title": "Dual Heroes",
+      "path": "/n64/197169-dual-heroes"
+    },
+    {
+      "id": "250578-duck-dodgers-starring-daffy-duck",
+      "title": "Duck Dodgers Starring Daffy Duck",
+      "path": "/n64/250578-duck-dodgers-starring-daffy-duck"
+    },
+    {
+      "id": "197176-duke-nukem-64",
+      "title": "Duke Nukem 64",
+      "path": "/n64/197176-duke-nukem-64"
+    },
+    {
+      "id": "188913-duke-nukem-zero-hour",
+      "title": "Duke Nukem: Zero Hour",
+      "path": "/n64/188913-duke-nukem-zero-hour"
+    },
+    {
+      "id": "197200-earthworm-jim-3d",
+      "title": "Earthworm Jim 3D",
+      "path": "/n64/197200-earthworm-jim-3d"
+    },
+    {
+      "id": "374850-echo-delta",
+      "title": "Echo Delta",
+      "path": "/n64/374850-echo-delta"
+    },
+    {
+      "id": "197210-ecw-hardcore-revolution",
+      "title": "ECW Hardcore Revolution",
+      "path": "/n64/197210-ecw-hardcore-revolution"
+    },
+    {
+      "id": "574508-eikou-no-st-andrews",
+      "title": "Eikou no St Andrews",
+      "path": "/n64/574508-eikou-no-st-andrews"
+    },
+    {
+      "id": "198386-quest-64",
+      "title": "Eltale Monsters",
+      "path": "/n64/198386-quest-64"
+    },
+    {
+      "id": "197253-excitebike-64",
+      "title": "Excitebike 64",
+      "path": "/n64/197253-excitebike-64"
+    },
+    {
+      "id": "197261-extreme-g",
+      "title": "Extreme-G",
+      "path": "/n64/197261-extreme-g"
+    },
+    {
+      "id": "446010-extreme-g-2",
+      "title": "Extreme-G 2",
+      "path": "/n64/446010-extreme-g-2"
+    },
+    {
+      "id": "446010-extreme-g-2",
+      "title": "Extreme-G XG2",
+      "path": "/n64/446010-extreme-g-2"
+    },
+    {
+      "id": "574485-f-1-racing-sim",
+      "title": "F-1 Racing Sim",
+      "path": "/n64/574485-f-1-racing-sim"
+    },
+    {
+      "id": "197275-f-1-world-grand-prix",
+      "title": "F-1 World Grand Prix",
+      "path": "/n64/197275-f-1-world-grand-prix"
+    },
+    {
+      "id": "197276-f-1-world-grand-prix-ii",
+      "title": "F-1 World Grand Prix II",
+      "path": "/n64/197276-f-1-world-grand-prix-ii"
+    },
+    {
+      "id": "197414-f-zero-x",
+      "title": "F-Zero X",
+      "path": "/n64/197414-f-zero-x"
+    },
+    {
+      "id": "197271-f1-pole-position-64",
+      "title": "F1 Pole Position 64",
+      "path": "/n64/197271-f1-pole-position-64"
+    },
+    {
+      "id": "577226-f1-racing-championship",
+      "title": "F1 Racing Championship",
+      "path": "/n64/577226-f1-racing-championship"
+    },
+    {
+      "id": "197291-famista-64",
+      "title": "Famista 64",
+      "path": "/n64/197291-famista-64"
+    },
+    {
+      "id": "197313-fifa-soccer-64",
+      "title": "FIFA 64",
+      "path": "/n64/197313-fifa-soccer-64"
+    },
+    {
+      "id": "197309-fifa-99",
+      "title": "FIFA 99",
+      "path": "/n64/197309-fifa-99"
+    },
+    {
+      "id": "197313-fifa-soccer-64",
+      "title": "FIFA Soccer 64",
+      "path": "/n64/197313-fifa-soccer-64"
+    },
+    {
+      "id": "197311-fifa-road-to-world-cup-98",
+      "title": "FIFA: Road to World Cup 98",
+      "path": "/n64/197311-fifa-road-to-world-cup-98"
+    },
+    {
+      "id": "197311-fifa-road-to-world-cup-98",
+      "title": "FIFA: Road to World Cup 98 - World Cup e no Michi",
+      "path": "/n64/197311-fifa-road-to-world-cup-98"
+    },
+    {
+      "id": "197326-fighter-destiny-2",
+      "title": "Fighter Destiny 2",
+      "path": "/n64/197326-fighter-destiny-2"
+    },
+    {
+      "id": "197325-fighters-destiny",
+      "title": "Fighters Destiny",
+      "path": "/n64/197325-fighters-destiny"
+    },
+    {
+      "id": "197325-fighters-destiny",
+      "title": "Fighting Cup",
+      "path": "/n64/197325-fighters-destiny"
+    },
+    {
+      "id": "197332-fighting-force-64",
+      "title": "Fighting Force 64",
+      "path": "/n64/197332-fighting-force-64"
+    },
+    {
+      "id": "197363-flying-dragon",
+      "title": "Flying Dragon",
+      "path": "/n64/197363-flying-dragon"
+    },
+    {
+      "id": "197377-forsaken-64",
+      "title": "Forsaken",
+      "path": "/n64/197377-forsaken-64"
+    },
+    {
+      "id": "197377-forsaken-64",
+      "title": "Forsaken 64",
+      "path": "/n64/197377-forsaken-64"
+    },
+    {
+      "id": "197380-fox-sports-college-hoops-99",
+      "title": "Fox Sports College Hoops '99",
+      "path": "/n64/197380-fox-sports-college-hoops-99"
+    },
+    {
+      "id": "199325-world-cup-98",
+      "title": "Frankreich 98: Die Fussball-WM",
+      "path": "/n64/199325-world-cup-98"
+    },
+    {
+      "id": "212719-freak-boy",
+      "title": "Freak Boy",
+      "path": "/n64/212719-freak-boy"
+    },
+    {
+      "id": "213030-frogger-2-swampys-revenge",
+      "title": "Frogger 2: Swampy's Revenge",
+      "path": "/n64/213030-frogger-2-swampys-revenge"
+    },
+    {
+      "id": "577498-fushigi-no-dungeon-fuurai-no-shiren-2-oni-shuurai-shiren-jou",
+      "title": "Fushigi no Dungeon: Fuurai no Shiren 2 - Oni Shuurai! Shiren Jou!",
+      "path": "/n64/577498-fushigi-no-dungeon-fuurai-no-shiren-2-oni-shuurai-shiren-jou"
+    },
+    {
+      "id": "197070-deadly-arts",
+      "title": "G.A.S.P!!: Fighter's NEXTream",
+      "path": "/n64/197070-deadly-arts"
+    },
+    {
+      "id": "314801-game-booster",
+      "title": "Game Booster",
+      "path": "/n64/314801-game-booster"
+    },
+    {
+      "id": "915334-goemons-great-adventure",
+      "title": "Ganbare Goemon: Derodero Douchu Obake Tenkomori",
+      "path": "/n64/915334-goemons-great-adventure"
+    },
+    {
+      "id": "198022-mystical-ninja-starring-goemon",
+      "title": "Ganbare Goemon: Neo Momoyama Bakufu no Odori",
+      "path": "/n64/198022-mystical-ninja-starring-goemon"
+    },
+    {
+      "id": "258825-international-track-and-field-2000",
+      "title": "Ganbare! Nippon! Olympic 2000",
+      "path": "/n64/258825-international-track-and-field-2000"
+    },
+    {
+      "id": "197431-gauntlet-legends",
+      "title": "Gauntlet Legends",
+      "path": "/n64/197431-gauntlet-legends"
+    },
+    {
+      "id": "576253-getter-love",
+      "title": "Getter Love!!",
+      "path": "/n64/576253-getter-love"
+    },
+    {
+      "id": "576253-getter-love",
+      "title": "Getter Love!! Chou Renai Party Game",
+      "path": "/n64/576253-getter-love"
+    },
+    {
+      "id": "197442-gex-3-deep-cover-gecko",
+      "title": "Gex 3: Deep Cover Gecko",
+      "path": "/n64/197442-gex-3-deep-cover-gecko"
+    },
+    {
+      "id": "197445-gex-64-enter-the-gecko",
+      "title": "Gex 64: Enter the Gecko",
+      "path": "/n64/197445-gex-64-enter-the-gecko"
+    },
+    {
+      "id": "197452-glover",
+      "title": "Glover",
+      "path": "/n64/197452-glover"
+    },
+    {
+      "id": "653485-glover-2",
+      "title": "Glover 2",
+      "path": "/n64/653485-glover-2"
+    },
+    {
+      "id": "576603-goemon-mononoke-sugoroku",
+      "title": "Goemon: Mononoke Sugoroku",
+      "path": "/n64/576603-goemon-mononoke-sugoroku"
+    },
+    {
+      "id": "915334-goemons-great-adventure",
+      "title": "Goemon's Great Adventure",
+      "path": "/n64/915334-goemons-great-adventure"
+    },
+    {
+      "id": "574488-golden-nugget-64",
+      "title": "Golden Nugget 64",
+      "path": "/n64/574488-golden-nugget-64"
+    },
+    {
+      "id": "197462-goldeneye-007",
+      "title": "GoldenEye 007",
+      "path": "/n64/197462-goldeneye-007"
+    },
+    {
+      "id": "197500-gt-64-championship-edition",
+      "title": "GT 64: Championship Edition",
+      "path": "/n64/197500-gt-64-championship-edition"
+    },
+    {
+      "id": "580620-hamster-monogatari-64",
+      "title": "Hamster Monogatari 64",
+      "path": "/n64/580620-hamster-monogatari-64"
+    },
+    {
+      "id": "574510-harukanaru-augusta-masters-98",
+      "title": "Harukanaru Augusta Masters '98",
+      "path": "/n64/574510-harukanaru-augusta-masters-98"
+    },
+    {
+      "id": "197528-harvest-moon-64",
+      "title": "Harvest Moon 64",
+      "path": "/n64/197528-harvest-moon-64"
+    },
+    {
+      "id": "574511-heiwa-pachinko-world-64",
+      "title": "Heiwa Pachinko World 64",
+      "path": "/n64/574511-heiwa-pachinko-world-64"
+    },
+    {
+      "id": "197546-hercules-the-legendary-journeys",
+      "title": "Hercules: The Legendary Journeys",
+      "path": "/n64/197546-hercules-the-legendary-journeys"
+    },
+    {
+      "id": "197555-hexen",
+      "title": "Hexen",
+      "path": "/n64/197555-hexen"
+    },
+    {
+      "id": "250595-hey-you-pikachu",
+      "title": "Hey You, Pikachu!",
+      "path": "/n64/250595-hey-you-pikachu"
+    },
+    {
+      "id": "197363-flying-dragon",
+      "title": "Hiryu No Ken Twin",
+      "path": "/n64/197363-flying-dragon"
+    },
+    {
+      "id": "198386-quest-64",
+      "title": "Holy Magic Century",
+      "path": "/n64/198386-quest-64"
+    },
+    {
+      "id": "250600-kirby-64-the-crystal-shards",
+      "title": "Hoshi no Kirby 64",
+      "path": "/n64/250600-kirby-64-the-crystal-shards"
+    },
+    {
+      "id": "197576-hot-wheels-turbo-racing",
+      "title": "Hot Wheels Turbo Racing",
+      "path": "/n64/197576-hot-wheels-turbo-racing"
+    },
+    {
+      "id": "196751-beetle-adventure-racing",
+      "title": "HSV Adventure Racing",
+      "path": "/n64/196751-beetle-adventure-racing"
+    },
+    {
+      "id": "197271-f1-pole-position-64",
+      "title": "Human Grand Prix: New Generation",
+      "path": "/n64/197271-f1-pole-position-64"
+    },
+    {
+      "id": "197592-hybrid-heaven",
+      "title": "Hybrid Heaven",
+      "path": "/n64/197592-hybrid-heaven"
+    },
+    {
+      "id": "197595-hydro-thunder",
+      "title": "Hydro Thunder",
+      "path": "/n64/197595-hydro-thunder"
+    },
+    {
+      "id": "574494-hype-the-time-quest",
+      "title": "Hype: The Time Quest",
+      "path": "/n64/574494-hype-the-time-quest"
+    }
+  ]
+}

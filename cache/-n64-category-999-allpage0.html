@@ -1,0 +1,1594 @@
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head>
+		<title>Nintendo 64 Cheats, Reviews, FAQs, Message Boards, and More - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+				<meta name="description" content="For the Nintendo 64, GameFAQs has game information and a community message board for game discussion." />
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRBR-a22c617a7b2aab2da1c",applicationID:"578849005"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){d("pageHide",[p.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1209.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+		<meta content="origin" id="mref" name="referrer" />
+
+		
+						<link rel="next" href="/n64/category/999-all?page=1"/>		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<link href="/a/css/v13.20210707211707.css" rel="stylesheet" type="text/css">
+		
+		
+				<link rel="canonical" href="https://gamefaqs.gamespot.com/n64/category/999-all" />
+		
+		
+		
+		<meta id="utag-data" name="utag-data" content="{&quot;siteType&quot;:&quot;gamefaqs-desktop&quot;,&quot;siteEdition&quot;:&quot;ww&quot;,&quot;deviceType&quot;:&quot;desktop&quot;,&quot;siteSection&quot;:&quot;Platforms&quot;,&quot;pageType&quot;:&quot;platform_game_list&quot;,&quot;siteHier&quot;:&quot;Platforms|Platform|Game List&quot;,&quot;userState&quot;:&quot;non authenticated&quot;,&quot;userType&quot;:&quot;anon&quot;,&quot;userId&quot;:null,&quot;regionCode&quot;:76,&quot;pageViewGuid&quot;:&quot;3c5d799a-77be-4c31-97cf-674b05b61942&quot;,&quot;articleType&quot;:null,&quot;articleTitle&quot;:null,&quot;productId&quot;:&quot;916387&quot;,&quot;productSeriesId&quot;:&quot;202411&quot;,&quot;productName&quot;:&quot;nintendo-64|&quot;,&quot;productGenre&quot;:&quot;Hardware|Console&quot;,&quot;productPlatform&quot;:&quot;Nintendo 64&quot;,&quot;_test&quot;:&quot;not in test&quot;,&quot;page_event&quot;:null,&quot;soastaPageType&quot;:&quot;platform_game_list&quot;}" />
+<meta id="ad-settings" content="" data-settings="{&quot;script&quot;:&quot;\/\/securepubads.g.doubleclick.net\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;nintendo-64&quot;,&quot;con&quot;:&quot;n64&quot;,&quot;ptype&quot;:&quot;platform_game_list&quot;,&quot;genre&quot;:&quot;Hardware,Console&quot;,&quot;publisher&quot;:&quot;Nintendo&quot;,&quot;score&quot;:&quot;84&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;b&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;firstpg&quot;:1},&quot;unit_name&quot;:&quot;\/22309610186\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;omni-skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;omni-skybox-nav&quot;:{&quot;size&quot;:[[5,5],[6,6]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],[728,90],[970,66],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[5,5],[728,90],[970,66],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}" />
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="3c5d799a-77be-4c31-97cf-674b05b61942">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+		
+				<script class="optanon-category-C0002" type="text/plain">!function(co,h,e,s,i,o,n){ var d='documentElement';var a='className';h[d][a]+=' preampjs fusejs'; n.k=e;co._Cohesion=n;co._Preamp={ k:s,start:new Date};co._Fuse={ k:i };co._Tagular={ k:o };[e,s,i,o].map(function(x){ co[x]=co[x]||function(){ (co[x].q=co[x].q||[]).push([].slice.call(arguments)) } }); h.addEventListener('DOMContentLoaded',function(){ co.setTimeout(function(){ var u=h[d][a];h[d][a]=u.replace(/ ?preampjs| ?fusejs/g,'') },3e3); co._Preamp.docReady=co._Fuse.docReady=!0});var z=h.createElement('script'); z.async=1;z.src='https://cdn.cohesionapps.com/cohesion/cohesion-latest.min.js';h.head.appendChild(z); }  (window,document,'cohesion','preamp','fuse','tagular',{ 
+        tagular:{ writeKey:'wk_1kYs5eN6U9uIferNb8RjqpIOZy0', sourceKey:'src_1kYs5kGF0gH8ObQlZU8ldA7KFYZ', apiVersion: 'v2/t' } })
+       </script>
+
+       			<script>(function(){ if(window.BOOMR&&window.BOOMR.version){ return }var dom,doc,where,iframe=document.createElement("iframe"),win=window;function boomerangSaveLoadTime(e){ win.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(win.addEventListener){ win.addEventListener("load",boomerangSaveLoadTime,false)}else if(win.attachEvent){ win.attachEvent("onload",boomerangSaveLoadTime)}iframe.src="javascript:void(0)";iframe.title="";iframe.role="presentation";(iframe.frameElement||iframe).style.cssText="width:0;height:0;border:0;display:none;";where=document.getElementsByTagName("script")[0];where.parentNode.insertBefore(iframe,where);try{ doc=iframe.contentWindow.document}catch(e){ dom=document.domain;iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";doc=iframe.contentWindow.document}doc.open()._l=function(){ var js=this.createElement("script");if(dom){ this.domain=dom}js.id="boomr-if-as";js.src="//c.go-mpulse.net/boomerang/MYNP2-T3LG3-6AAGT-L5R5G-J95EV";BOOMR_lstart=(new Date).getTime();this.body.appendChild(js)};doc.write('<body onload="document._l();">');doc.close()})();</script>
+
+				<script type="text/javascript" src="/a/js/jquery_gf.20210707211707.js"></script>
+		<script type="text/javascript" src="/a/js/gamefaqs.20210707211707.js"></script>
+		<script type="text/javascript" src="/a/js/quill.20210707211707.js"></script>
+
+				<script type="text/javascript">
+		 function setUpAgknTag(tag){ tag.setBpId("cbsinteractive"); }
+		var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+		$('meta[id=view-guid-meta]').attr("content", vguid);
+		window.chsn_ad_id = vguid;
+		</script>
+
+				<script type="text/javascript" src="/a/js/amazon.20210707211707.js"></script>
+		
+	  		  	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="afd6fcc3-97e8-40b2-8199-fc054fbcc8ab"></script>
+	  	<script src="https://gamefaqs.gamespot.com/a/privacy/optanon/optanon-v1.1.0.js" type="text/javascript" id="bb-cbsoptanon" async></script>
+	  	<script>window.BidBarrel=window.BidBarrel||{ };window.BidBarrel.queue = window.BidBarrel.queue||[];</script><script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" type="text/javascript" async></script><script class="optanon-category-C0004" type="text/plain" charset="utf-8" src="//js-sec.indexww.com/ht/p/183728-151106130411182.js" async></script><script class="optanon-category-C0004" type="text/plain" charset="utf-8" src="//c.amazon-adsystem.com/aax2/apstag.js" async></script><script src="/a/js/bidbarrel-gamefaqs.20210707211707.js"></script>
+	  	<script class="optanon-category-C0004" type="text/plain" src="//js.agkn.com/prod/v0/tag.js" async></script>	  	<script type="text/javascript">!function(n){ var o=window,a="cbsoptanon",c="cmd",d="config";o[a]=o[a]?o[a]:{},o[a][c]=o[a][c]?o[a][c]:[],o[a][d]=o[a][d]?o[a][d]:[],["onIframesReady","onFormsReady","onScriptsReady","onAdsReady"].forEach(function(n){ o[a][n]=o[a][n]||function(){ var d=arguments;o[a][c].push(function(){ o[a][n].apply(o[a],d)})}})}();window.cbsoptanon.config.push({ enableServices: false,euMaxAttempts: 25,countryCodeMaxAttempts: 25,oneTrustTimeout: 700,setNpaOnConsentChange: true });</script>
+
+	</head>
+	<body class="">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_platform p_916387 s_n64">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/">Home</a></li><li><a href="/answers">Q&amp;A</a></li><li><a href="/boards">Boards</a></li><li><a href="/community">Community</a></li><li><a href="/contribute">Contribute</a></li><li><a href="/games">Games</a></li><li><a href="/new">What&rsquo;s&nbsp;New</a></li></ul><br /><ul class="sidenav_menu"><li><a href="/3ds">3DS</a></li><li><a href="/android">Android</a></li><li><a href="/iphone">iOS</a></li><li><a href="/pc">PC</a></li><li><a href="/ps3">PlayStation&nbsp;3</a></li><li><a href="/ps4">PlayStation&nbsp;4</a></li><li><a href="/ps5">PlayStation&nbsp;5</a></li><li><a href="/switch">Switch</a></li><li><a href="/vita">Vita</a></li><li><a href="/xbox360">Xbox 360</a></li><li><a href="/xboxone">Xbox One</a></li><li><a href="/xbox-series-x">Xbox Series</a></li><li><a href="/games/systems">More Systems</a></li></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/pc">PC</a><a href="/ps4">PS4</a><a href="/ps5">PS5</a><a href="/switch">Switch</a><a href="/xboxone">Xbox One</a><a href="/xbox-series-x">Xbox Series</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/games/systems" >More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="masthead_platform_subnav_item"><a href="/3ds">3DS</a></li><li class="masthead_platform_subnav_item"><a href="/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/ps2">PlayStation 2</a></li><li class="masthead_platform_subnav_item"><a href="/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/wii-u">Wii U</a></li><li class="masthead_platform_subnav_item"><a href="/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/games/systems">And 121 More...</a></li></ul></span></nav><div class="masthead_user">
+	<a href="/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/n64/category/999-all?page=0" /><input class="hidden" type="hidden" name="key" value="11a2fb93">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email" />
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED" /><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login" />
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/user/recover">Forgot your username or password?</a><br /><br />
+	<a href="/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo"><a href="/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/search"><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles" /></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/answers" style="padding-right:15px;">Q&amp;A</a><a href="/boards">Boards</a><a class="navtrim" href="/community">Community</a><a class="navtrim" href="/contribute">Contribute</a><a class="navtrim" href="/games">Games</a><a class="notab" href="/new">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+													<div class="js-mapped-ad ad ad_leader_top" data-ad-type="leader_top"><div class="ad_wrap "></div></div>
+								
+								<div id="content" class="container">
+
+															
+																<div class="main_content row">
+							<div class="span8">
+								<header class="page-header"><div class="header_split"><div class="header_left">			<div class="header_image" style="background-image:url(/a/box/7/5/9/307759_thumb.jpg)"></div></div><div class="header_right">			<h1 class="page-title">Nintendo 64</h1>			<h3 class="platform-title"><span class="header_more">Nintendo 64</span></h3><div class="gs_header_buttons"><span class="gs_hbtn_span"><button class="btn gs_hbtn gs_hb_notes" id="btn_gs_note" title="Your notes"><i class="fa fa-pencil-square-o" id="i_gs_note"></i></button><div id="gs_note" class="gsh_subnav gsh_subnav_wide"><a onclick="show_login();">Log In</a> to add custom notes to this or any other game.</div></span><span class="gs_hbtn_span"><button class="btn gs_hbtn gs_hb_notify" id="btn_gs_noty" title="Notify me"><i class="fa fa-bell-o" id="i_gs_noty"></i></button><div id="gs_noty" class="gsh_subnav">Notify me about new:<div class="gsh_track" id="track_any_faq"><i class="fa fa-bell-o gs_hb_notify"></i> Guides</div><div class="gsh_track" id="track_new_cheat"><i class="fa fa-bell-o gs_hb_notify"></i> Cheats</div><div class="gsh_track" id="track_new_review"><i class="fa fa-bell-o gs_hb_notify"></i> Reviews</div><div class="gsh_track" id="qna_track"><i class="fa fa-bell-o gs_hb_notify"></i> Questions</div></div></span><span class="gs_hbtn_span"><button type="button" id="btn_gs_fav" class="btn gs_hbtn gs_hb_favorite" title="Favorites"><i class="fa fa-heart-o" id="i_gs_fav"></i></button><div id="gs_fav" class="gsh_subnav">Add this game to my:<div class="gsh_track" id="mygames_hot_list"><i class="fa fa-heart-o gs_hb_favorite"></i> Favorites</div><div class="gsh_track" id="mygames_now_playing"><i class="fa fa-heart-o gs_hb_favorite"></i> Now Playing</div><div class="gsh_track" id="mygames_wish_list"><i class="fa fa-heart-o gs_hb_favorite"></i> Wish List</div><div class="gsh_track" id="mygames_play_queue"><i class="fa fa-heart-o gs_hb_favorite"></i> Play Queue</div></div></span></div></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item"><a href="/n64/916387-nintendo-64/faqs">Guides</a></div><div class="cnav_imp cnav_item"><a href="/n64/916387-nintendo-64/answers" style="padding-left:5px;padding-right:5px;">Q&amp;A</a></div><div class="cnav_imp cnav_item"><a href="/boards/916387-nintendo-64">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div>	<ol class="content_nav content_nav_split">		<li class="cnav_item cnav_has_drop"><a href="/n64/916387-nintendo-64">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/n64/916387-nintendo-64">Summary</a></li><li class="csubnav_item"><a href="/n64/916387-nintendo-64/data">Release Data</a></li><li class="csubnav_item"><a href="/n64/916387-nintendo-64/credit">Game Credits</a></li><li class="csubnav_item"><a href="/n64/916387-nintendo-64/stats">Collection Stats</a></li><li class="csubnav_item"><a href="/n64/916387-nintendo-64/trivia">Game Trivia</a></li></ol></li>		<li class="cnav_item_active"><a href="/n64">Games</a></li>		<li class="cnav_imp cnav_item"><a href="/n64/916387-nintendo-64/faqs">Guides</a></li>		<li class="cnav_imp cnav_item"><a href="/n64/916387-nintendo-64/answers" style="padding-left:5px;padding-right:5px;">Q&amp;A</a></li>		<li class="cnav_item"><a href="/n64/916387-nintendo-64/cheats">Cheats</a></li>				<li class="cnav_item"><a href="/n64/916387-nintendo-64/reviews">Reviews</a></li>		<li class="cnav_item cnav_has_drop"><a href="/n64/916387-nintendo-64/media">Media</a><ol class="content_subnav"><li class="csubnav_item"><a href="/n64/916387-nintendo-64/images">Images</a></li><li class="csubnav_item"><a href="/n64/916387-nintendo-64/videos">Videos</a></li></ol></li>				<li class="cnav_imp cnav_item"><a href="/boards/916387-nintendo-64">Board</a></li></ol></nav>
+<script type="text/javascript">
+$().ready(function() {
+	var notesaveInt;
+
+	$('#js_content_nav_toggle').click(function()
+	{
+		$('.content_nav_wrap').toggleClass('content_nav_open');
+	});
+
+	$(document).mouseup(function(e){
+	    $("#gs_fav, #gs_noty, #gs_note").each( function(container) {
+	    	var container = $(this);
+		    if(!container.is(e.target) && container.has(e.target).length === 0 && container.is(':visible')){
+		    	if(e.target.id.indexOf(container.attr('id')) < 1)
+	        		container.hide();
+						    }
+	    });
+	});
+
+	$(".gs_hbtn").click( function() {
+		var id = $(this).attr('id').substr(4);
+		$('#' + id).toggle();
+	});
+
+			$(".gsh_track").click(function() {
+			show_login();
+		});
+	});
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	[
+		{
+			"@type": "ListItem",
+			"position": 1,
+			"item":
+			{
+				"@id": "https://gamefaqs.gamespot.com/n64",
+				"name": "Nintendo 64"
+			}
+		},				{
+			"@type": "ListItem",
+			"position": 2,
+			"item":
+			{
+				"@id": "https://gamefaqs.gamespot.com/n64/category/263-hardware",
+				"name": "Hardware"
+			}
+		},				{
+			"@type": "ListItem",
+			"position": 3,
+			"item":
+			{
+				"@id": "https://gamefaqs.gamespot.com/n64/category/264-hardware-console",
+				"name": "Console"
+			}
+		}			]
+}
+</script>
+
+
+
+<div class="pgm pod_filter"><div class="pgm_row">
+	<div class="pgm_title"><b>Browse Games:</b></div>
+	<div class="pgm_title"><a href="/n64/category/999-all">All Games</a></div>
+	<div class="pgm_title pgm_drop">By&nbsp;Alpha&nbsp;<i class="fa fa-caret-down"></i>
+		<ul class="pgm_drop_list pgm_drop_list_alpha">
+			<a href="/n64/alpha/1-a"><li><button>A</button></li></a>
+			<a href="/n64/alpha/2-b"><li><button>B</button></li></a>
+			<a href="/n64/alpha/3-c"><li><button>C</button></li></a>
+			<a href="/n64/alpha/4-d"><li><button>D</button></li></a>
+			<a href="/n64/alpha/5-e"><li><button>E</button></li></a>
+			<a href="/n64/alpha/6-f"><li><button>F</button></li></a>
+			<a href="/n64/alpha/7-g"><li><button>G</button></li></a>
+			<a href="/n64/alpha/8-h"><li><button>H</button></li></a>
+			<a href="/n64/alpha/9-i"><li><button>I</button></li></a>
+			<a href="/n64/alpha/10-j"><li><button>J</button></li></a>
+			<a href="/n64/alpha/11-k"><li><button>K</button></li></a>
+			<a href="/n64/alpha/12-l"><li><button>L</button></li></a>
+			<a href="/n64/alpha/13-m"><li><button>M</button></li></a>
+			<a href="/n64/alpha/14-n"><li><button>N</button></li></a>
+			<a href="/n64/alpha/15-o"><li><button>O</button></li></a>
+			<a href="/n64/alpha/16-p"><li><button>P</button></li></a>
+			<a href="/n64/alpha/17-q"><li><button>Q</button></li></a>
+			<a href="/n64/alpha/18-r"><li><button>R</button></li></a>
+			<a href="/n64/alpha/19-s"><li><button>S</button></li></a>
+			<a href="/n64/alpha/20-t"><li><button>T</button></li></a>
+			<a href="/n64/alpha/21-u"><li><button>U</button></li></a>
+			<a href="/n64/alpha/22-v"><li><button>V</button></li></a>
+			<a href="/n64/alpha/23-w"><li><button>W</button></li></a>
+			<a href="/n64/alpha/24-x"><li><button>X</button></li></a>
+			<a href="/n64/alpha/25-y"><li><button>Y</button></li></a>
+			<a href="/n64/alpha/26-z"><li><button>Z</button></li></a>
+			<a href="/n64/alpha/27-0"><li><button>#</button></li></a>
+			</ul>
+	</div>
+	<div class="pgm_title pgm_drop">By&nbsp;Category&nbsp;<i class="fa fa-caret-down"></i>
+		<ul class="pgm_drop_list">
+																																												<a href="/n64/category/54-action"><li><button>Action</button></li></a>
+																	<a href="/n64/category/163-action-adventure"><li><button>Action Adventure</button></li></a>
+																	<a href="/n64/category/50-adventure"><li><button>Adventure</button></li></a>
+																																																																																																																																																																																																																																																																																																									<a href="/n64/category/49-miscellaneous"><li><button>Miscellaneous</button></li></a>
+																																															<a href="/n64/category/173-puzzle"><li><button>Puzzle</button></li></a>
+												<a href="/n64/category/47-racing"><li><button>Racing</button></li></a>
+																																<a href="/n64/category/48-role-playing"><li><button>Role-Playing</button></li></a>
+																																																				<a href="/n64/category/46-simulation"><li><button>Simulation</button></li></a>
+																																					<a href="/n64/category/43-sports"><li><button>Sports</button></li></a>
+																	<a href="/n64/category/45-strategy"><li><button>Strategy</button></li></a>
+																																																																																												</ul>
+	</div>
+		</div></div>
+
+
+
+<script>
+$().ready( function() {
+if('ontouchstart' in window || navigator.maxTouchPoints)
+{
+	$(".pgm_drop").click(function() { 
+		if($(this).children(".pgm_drop_list").css('display') == 'block')
+		{
+			$(this).children(".pgm_drop_list").hide(); 
+		}
+		else
+		{
+			$(".pgm_drop_list").hide(); 
+			$(this).children(".pgm_drop_list").show(); 
+		}
+		});
+	$(".pgm_drop_list").hide(); 
+}
+});
+</script>
+
+<div class="pgm pod_filter"><div class="pgm_row">
+	<div class="pgm_title"><b>Filter Game List:</b></div>
+			<div class="pgm_title pgm_drop">Region<i class="fa fa-caret-down"></i>
+		<ul class="pgm_drop_list">
+				<a href="/n64/category/999-all"><li><button>All</button></li></a>
+				<a href="/n64/category/999-all?region=1"><li><button>North America</button></li></a>
+				<a href="/n64/category/999-all?region=2"><li><button>Japan</button></li></a>
+				<a href="/n64/category/999-all?region=3"><li><button>Europe</button></li></a>
+				<a href="/n64/category/999-all?region=4"><li><button>Australia</button></li></a>
+				</ul>
+	</div>
+			<div class="pgm_title pgm_drop">Distribution<i class="fa fa-caret-down"></i>
+		<ul class="pgm_drop_list">
+					<a href="/n64/category/999-all"><li><button>All</button></li></a>
+					<a href="/n64/category/999-all?dist=1"><li><button>Retail</button></li></a>
+					<a href="/n64/category/999-all?dist=3"><li><button>Other</button></li></a>
+					<a href="/n64/category/999-all?dist=11"><li><button>Virtual Console Wii</button></li></a>
+					<a href="/n64/category/999-all?dist=25"><li><button>Virtual Console WiiU</button></li></a>
+				</ul>
+	</div>
+	</div></div>
+ 
+
+
+								
+								<div class="clear"></div>
+							</div>
+							<aside class="span4">
+								
+																											<div class="js-mapped-ad ad ad_mpu_top" data-ad-type="mpu_top"><div class="ad_wrap "></div></div>
+																									
+																
+							</aside>
+						</div>
+										
+																<div class="post_content row">
+							<div class="span12">
+								<div class="pod">
+	<div class="head"><h2 class="title">Games by Category: All</h2></div>
+	<div class="body">
+		<table class="results">
+		<colgroup>
+		<col class="rtitle"/>
+		<col class="smaller"/>
+		<col class="smaller"/>
+				<col class="smaller"/>
+				<col class="smaller"/>
+		<col class="smaller"/>
+		<col class="smaller"/>
+		<col class="smaller"/>
+		<col class="smaller"/>
+		</colgroup>
+		<thead>
+			<th class="rtitle">Title</th>
+			<th class="rmain">Guides</th>
+			<th class="rmain">Cheats</th>
+						<th>Saves</th>
+						<th>Reviews</th>
+			<th>Q&amp;A</th>
+			<th>Images</th>
+			<th>Videos</th>
+			<th class="rmain">Board</th>
+		</thead>
+				<tr>
+			<td class="rtitle"><a href="/n64/914163-007-the-world-is-not-enough">007: The World Is Not Enough</a></td>
+			<td class="rmain"><a href="/n64/914163-007-the-world-is-not-enough/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/914163-007-the-world-is-not-enough/cheats">Cheats</a></td>
+						<td><a href="/n64/914163-007-the-world-is-not-enough/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/914163-007-the-world-is-not-enough/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/914163-007-the-world-is-not-enough/answers">Q&amp;A</a></td>
+			<td><a href="/n64/914163-007-the-world-is-not-enough/images">Images</a></td>
+			<td><a href="/n64/914163-007-the-world-is-not-enough/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/914163-007-the-world-is-not-enough">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196500-1080-teneighty-snowboarding">1080: TenEighty Snowboarding</a></td>
+			<td class="rmain"><a href="/n64/196500-1080-teneighty-snowboarding/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196500-1080-teneighty-snowboarding/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196500-1080-teneighty-snowboarding/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196500-1080-teneighty-snowboarding/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196500-1080-teneighty-snowboarding/images">Images</a></td>
+			<td><a href="/n64/196500-1080-teneighty-snowboarding/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196500-1080-teneighty-snowboarding">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/123836-40-winks">40 Winks</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/123836-40-winks/answers">Q&amp;A</a></td>
+			<td><a href="/n64/123836-40-winks/images">Images</a></td>
+			<td><a href="/n64/123836-40-winks/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/123836-40-winks">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world">64 de Hakken!  Tamagotchi Minna de Tamagotchi World</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world/images">Images</a></td>
+			<td><a href="/n64/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574502-64-de-hakken-tamagotchi-minna-de-tamagotchi-world">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576663-64-hanafuda-tenshi-no-yakusoku">64 Hanafuda: Tenshi no Yakusoku</a></td>
+			<td class="rmain"><a href="/n64/576663-64-hanafuda-tenshi-no-yakusoku/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576663-64-hanafuda-tenshi-no-yakusoku/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576663-64-hanafuda-tenshi-no-yakusoku/images">Images</a></td>
+			<td><a href="/n64/576663-64-hanafuda-tenshi-no-yakusoku/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576663-64-hanafuda-tenshi-no-yakusoku">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/198845-64-oozumou">64 Oozumou</a></td>
+			<td class="rmain"><a href="/n64/198845-64-oozumou/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/198845-64-oozumou/critic">Reviews</a></td>
+						<td><a href="/n64/198845-64-oozumou/answers">Q&amp;A</a></td>
+			<td><a href="/n64/198845-64-oozumou/images">Images</a></td>
+			<td><a href="/n64/198845-64-oozumou/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/198845-64-oozumou">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576682-64-oozumou-2">64 Oozumou 2</a></td>
+			<td class="rmain"><a href="/n64/576682-64-oozumou-2/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576682-64-oozumou-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576682-64-oozumou-2/images">Images</a></td>
+			<td><a href="/n64/576682-64-oozumou-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576682-64-oozumou-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world">64 Trump Collection: Alice no Waku Waku Trump World</a></td>
+			<td class="rmain"><a href="/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world/images">Images</a></td>
+			<td><a href="/n64/574503-64-trump-collection-alice-no-waku-waku-trump-world/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574503-64-trump-collection-alice-no-waku-waku-trump-world">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196549-aero-fighters-assault">Aero Fighters Assault</a></td>
+			<td class="rmain"><a href="/n64/196549-aero-fighters-assault/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196549-aero-fighters-assault/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196549-aero-fighters-assault/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196549-aero-fighters-assault/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196549-aero-fighters-assault/images">Images</a></td>
+			<td><a href="/n64/196549-aero-fighters-assault/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196549-aero-fighters-assault">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196550-aerogauge">AeroGauge</a></td>
+			<td class="rmain"><a href="/n64/196550-aerogauge/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196550-aerogauge/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196550-aerogauge/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196550-aerogauge/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196550-aerogauge/images">Images</a></td>
+			<td><a href="/n64/196550-aerogauge/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196550-aerogauge">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576255-ai-shogi-3">AI Shogi 3</a></td>
+			<td class="rmain"><a href="/n64/576255-ai-shogi-3/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576255-ai-shogi-3/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576255-ai-shogi-3/images">Images</a></td>
+			<td><a href="/n64/576255-ai-shogi-3/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576255-ai-shogi-3">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196565-aidyn-chronicles-the-first-mage">Aidyn Chronicles: The First Mage</a></td>
+			<td class="rmain"><a href="/n64/196565-aidyn-chronicles-the-first-mage/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196565-aidyn-chronicles-the-first-mage/cheats">Cheats</a></td>
+						<td><a href="/n64/196565-aidyn-chronicles-the-first-mage/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196565-aidyn-chronicles-the-first-mage/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196565-aidyn-chronicles-the-first-mage/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196565-aidyn-chronicles-the-first-mage/images">Images</a></td>
+			<td><a href="/n64/196565-aidyn-chronicles-the-first-mage/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196565-aidyn-chronicles-the-first-mage">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574480-airboarder-64">AirBoarder 64</a></td>
+			<td class="rmain"><a href="/n64/574480-airboarder-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/574480-airboarder-64/cheats">Cheats</a></td>
+						<td><a href="/n64/574480-airboarder-64/saves">Saves</a></td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/574480-airboarder-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574480-airboarder-64/images">Images</a></td>
+			<td><a href="/n64/574480-airboarder-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574480-airboarder-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574480-airboarder-64">AirBoardin&#039; USA</a></td>
+			<td class="rmain"><a href="/n64/574480-airboarder-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/574480-airboarder-64/cheats">Cheats</a></td>
+						<td><a href="/n64/574480-airboarder-64/saves">Saves</a></td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/574480-airboarder-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574480-airboarder-64/images">Images</a></td>
+			<td><a href="/n64/574480-airboarder-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574480-airboarder-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196882-castlevania">Akumajou Dracula Mokushiroku</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/cheats">Cheats</a></td>
+						<td><a href="/n64/196882-castlevania/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196882-castlevania/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196882-castlevania/images">Images</a></td>
+			<td><a href="/n64/196882-castlevania/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196882-castlevania">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196883-castlevania-legacy-of-darkness">Akumajou Dracula Mokushiroku Gaiden: Legend of Cornell</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/cheats">Cheats</a></td>
+						<td><a href="/n64/196883-castlevania-legacy-of-darkness/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196883-castlevania-legacy-of-darkness/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196883-castlevania-legacy-of-darkness/images">Images</a></td>
+			<td><a href="/n64/196883-castlevania-legacy-of-darkness/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196883-castlevania-legacy-of-darkness">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196587-all-star-tennis-99">All Star Tennis &#039;99</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196587-all-star-tennis-99/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196587-all-star-tennis-99/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196587-all-star-tennis-99/images">Images</a></td>
+			<td><a href="/n64/196587-all-star-tennis-99/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196587-all-star-tennis-99">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196587-all-star-tennis-99">All Star Tennis 99</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196587-all-star-tennis-99/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196587-all-star-tennis-99/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196587-all-star-tennis-99/images">Images</a></td>
+			<td><a href="/n64/196587-all-star-tennis-99/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196587-all-star-tennis-99">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196592-all-star-baseball-2000">All-Star Baseball 2000</a></td>
+			<td class="rmain"><a href="/n64/196592-all-star-baseball-2000/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196592-all-star-baseball-2000/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196592-all-star-baseball-2000/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196592-all-star-baseball-2000/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196592-all-star-baseball-2000/images">Images</a></td>
+			<td><a href="/n64/196592-all-star-baseball-2000/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196592-all-star-baseball-2000">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/250563-all-star-baseball-2001">All-Star Baseball 2001</a></td>
+			<td class="rmain"><a href="/n64/250563-all-star-baseball-2001/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/250563-all-star-baseball-2001/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/250563-all-star-baseball-2001/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/250563-all-star-baseball-2001/answers">Q&amp;A</a></td>
+			<td><a href="/n64/250563-all-star-baseball-2001/images">Images</a></td>
+			<td><a href="/n64/250563-all-star-baseball-2001/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/250563-all-star-baseball-2001">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196585-all-star-baseball-99">All-Star Baseball 99</a></td>
+			<td class="rmain"><a href="/n64/196585-all-star-baseball-99/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196585-all-star-baseball-99/cheats">Cheats</a></td>
+						<td><a href="/n64/196585-all-star-baseball-99/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196585-all-star-baseball-99/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196585-all-star-baseball-99/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196585-all-star-baseball-99/images">Images</a></td>
+			<td><a href="/n64/196585-all-star-baseball-99/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196585-all-star-baseball-99">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196641-armorines-project-swarm">Armorines: Project S.W.A.R.M.</a></td>
+			<td class="rmain"><a href="/n64/196641-armorines-project-swarm/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196641-armorines-project-swarm/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196641-armorines-project-swarm/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196641-armorines-project-swarm/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196641-armorines-project-swarm/images">Images</a></td>
+			<td><a href="/n64/196641-armorines-project-swarm/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196641-armorines-project-swarm">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196647-army-men-air-combat">Army Men: Air Combat</a></td>
+			<td class="rmain"><a href="/n64/196647-army-men-air-combat/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196647-army-men-air-combat/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196647-army-men-air-combat/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196647-army-men-air-combat/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196647-army-men-air-combat/images">Images</a></td>
+			<td><a href="/n64/196647-army-men-air-combat/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196647-army-men-air-combat">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196649-army-men-sarges-heroes">Army Men: Sarge&#039;s Heroes</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/196649-army-men-sarges-heroes/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196649-army-men-sarges-heroes/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196649-army-men-sarges-heroes/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196649-army-men-sarges-heroes/images">Images</a></td>
+			<td><a href="/n64/196649-army-men-sarges-heroes/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196649-army-men-sarges-heroes">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/340233-army-men-sarges-heroes-2">Army Men: Sarge&#039;s Heroes 2</a></td>
+			<td class="rmain"><a href="/n64/340233-army-men-sarges-heroes-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/340233-army-men-sarges-heroes-2/cheats">Cheats</a></td>
+						<td><a href="/n64/340233-army-men-sarges-heroes-2/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/340233-army-men-sarges-heroes-2/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/340233-army-men-sarges-heroes-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/340233-army-men-sarges-heroes-2/images">Images</a></td>
+			<td><a href="/n64/340233-army-men-sarges-heroes-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/340233-army-men-sarges-heroes-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196751-beetle-adventure-racing">As Aventuras do Fusca!</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/cheats">Cheats</a></td>
+						<td><a href="/n64/196751-beetle-adventure-racing/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196751-beetle-adventure-racing/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196751-beetle-adventure-racing/images">Images</a></td>
+			<td><a href="/n64/196751-beetle-adventure-racing/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196751-beetle-adventure-racing">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196661-asteroids-hyper-64">Asteroids Hyper 64</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/196661-asteroids-hyper-64/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196661-asteroids-hyper-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196661-asteroids-hyper-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196661-asteroids-hyper-64/images">Images</a></td>
+			<td><a href="/n64/196661-asteroids-hyper-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196661-asteroids-hyper-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196671-automobili-lamborghini">Automobili Lamborghini</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/cheats">Cheats</a></td>
+						<td><a href="/n64/196671-automobili-lamborghini/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196671-automobili-lamborghini/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196671-automobili-lamborghini/images">Images</a></td>
+			<td><a href="/n64/196671-automobili-lamborghini/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196671-automobili-lamborghini">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196671-automobili-lamborghini">Automobili Lamborghini: Super Speed Race 64</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/cheats">Cheats</a></td>
+						<td><a href="/n64/196671-automobili-lamborghini/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196671-automobili-lamborghini/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196671-automobili-lamborghini/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196671-automobili-lamborghini/images">Images</a></td>
+			<td><a href="/n64/196671-automobili-lamborghini/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196671-automobili-lamborghini">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196799-bomberman-64">Baku Bomberman</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/cheats">Cheats</a></td>
+						<td><a href="/n64/196799-bomberman-64/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196799-bomberman-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196799-bomberman-64/images">Images</a></td>
+			<td><a href="/n64/196799-bomberman-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196799-bomberman-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/257793-bomberman-64-the-second-attack">Baku Bomberman 2</a></td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/257793-bomberman-64-the-second-attack/answers">Q&amp;A</a></td>
+			<td><a href="/n64/257793-bomberman-64-the-second-attack/images">Images</a></td>
+			<td><a href="/n64/257793-bomberman-64-the-second-attack/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/257793-bomberman-64-the-second-attack">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196684-bakuretsu-muteki-bangai-o">Bakuretsu Muteki Bangai-O</a></td>
+			<td class="rmain"><a href="/n64/196684-bakuretsu-muteki-bangai-o/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196684-bakuretsu-muteki-bangai-o/critic">Reviews</a></td>
+						<td><a href="/n64/196684-bakuretsu-muteki-bangai-o/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196684-bakuretsu-muteki-bangai-o/images">Images</a></td>
+			<td><a href="/n64/196684-bakuretsu-muteki-bangai-o/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196684-bakuretsu-muteki-bangai-o">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576256-bakushou-jinsei-64-mezase-resort-ou">Bakushou Jinsei 64: Mezase! Resort Ou</a></td>
+			<td class="rmain"><a href="/n64/576256-bakushou-jinsei-64-mezase-resort-ou/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576256-bakushou-jinsei-64-mezase-resort-ou/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576256-bakushou-jinsei-64-mezase-resort-ou/images">Images</a></td>
+			<td><a href="/n64/576256-bakushou-jinsei-64-mezase-resort-ou/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576256-bakushou-jinsei-64-mezase-resort-ou">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196694-banjo-kazooie">Banjo to Kazooie no Daibouken</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/cheats">Cheats</a></td>
+						<td><a href="/n64/196694-banjo-kazooie/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196694-banjo-kazooie/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196694-banjo-kazooie/images">Images</a></td>
+			<td><a href="/n64/196694-banjo-kazooie/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196694-banjo-kazooie">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196695-banjo-tooie">Banjo to Kazooie no Daibouken 2</a></td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196695-banjo-tooie/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196695-banjo-tooie/images">Images</a></td>
+			<td><a href="/n64/196695-banjo-tooie/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196695-banjo-tooie">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196694-banjo-kazooie">Banjo-Kazooie</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/cheats">Cheats</a></td>
+						<td><a href="/n64/196694-banjo-kazooie/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196694-banjo-kazooie/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196694-banjo-kazooie/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196694-banjo-kazooie/images">Images</a></td>
+			<td><a href="/n64/196694-banjo-kazooie/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196694-banjo-kazooie">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196695-banjo-tooie">Banjo-Tooie</a></td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196695-banjo-tooie/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196695-banjo-tooie/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196695-banjo-tooie/images">Images</a></td>
+			<td><a href="/n64/196695-banjo-tooie/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196695-banjo-tooie">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197634-in-fisherman-bass-hunter-64">Bass Hunter 64</a></td>
+			<td class="rmain"><a href="/n64/197634-in-fisherman-bass-hunter-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197634-in-fisherman-bass-hunter-64/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197634-in-fisherman-bass-hunter-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197634-in-fisherman-bass-hunter-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197634-in-fisherman-bass-hunter-64/images">Images</a></td>
+			<td><a href="/n64/197634-in-fisherman-bass-hunter-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197634-in-fisherman-bass-hunter-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/577048-bass-rush">Bass Rush</a></td>
+			<td class="rmain"><a href="/n64/577048-bass-rush/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/577048-bass-rush/answers">Q&amp;A</a></td>
+			<td><a href="/n64/577048-bass-rush/images">Images</a></td>
+			<td><a href="/n64/577048-bass-rush/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/577048-bass-rush">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/577048-bass-rush">Bass Rush: EcoGear PowerWorm Championship</a></td>
+			<td class="rmain"><a href="/n64/577048-bass-rush/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/577048-bass-rush/answers">Q&amp;A</a></td>
+			<td><a href="/n64/577048-bass-rush/images">Images</a></td>
+			<td><a href="/n64/577048-bass-rush/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/577048-bass-rush">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196707-bassmasters-2000">Bassmasters 2000</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/196707-bassmasters-2000/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196707-bassmasters-2000/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196707-bassmasters-2000/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196707-bassmasters-2000/images">Images</a></td>
+			<td><a href="/n64/196707-bassmasters-2000/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196707-bassmasters-2000">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/579006-batman-beyond-return-of-the-joker">Batman Beyond: Return of the Joker</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/579006-batman-beyond-return-of-the-joker/answers">Q&amp;A</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/images">Images</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/579006-batman-beyond-return-of-the-joker">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/579006-batman-beyond-return-of-the-joker">Batman Do Futuro: O Retorno Do Coringa</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/579006-batman-beyond-return-of-the-joker/answers">Q&amp;A</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/images">Images</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/579006-batman-beyond-return-of-the-joker">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/579006-batman-beyond-return-of-the-joker">Batman of the Future: Return of the Joker</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/579006-batman-beyond-return-of-the-joker/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/579006-batman-beyond-return-of-the-joker/answers">Q&amp;A</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/images">Images</a></td>
+			<td><a href="/n64/579006-batman-beyond-return-of-the-joker/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/579006-batman-beyond-return-of-the-joker">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196733-battletanx">BattleTanx</a></td>
+			<td class="rmain"><a href="/n64/196733-battletanx/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196733-battletanx/cheats">Cheats</a></td>
+						<td><a href="/n64/196733-battletanx/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196733-battletanx/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196733-battletanx/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196733-battletanx/images">Images</a></td>
+			<td><a href="/n64/196733-battletanx/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196733-battletanx">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196734-battletanx-global-assault">BattleTanx: Global Assault</a></td>
+			<td class="rmain"><a href="/n64/196734-battletanx-global-assault/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196734-battletanx-global-assault/cheats">Cheats</a></td>
+						<td><a href="/n64/196734-battletanx-global-assault/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196734-battletanx-global-assault/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196734-battletanx-global-assault/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196734-battletanx-global-assault/images">Images</a></td>
+			<td><a href="/n64/196734-battletanx-global-assault/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196734-battletanx-global-assault">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196739-battlezone-rise-of-the-black-dogs">Battlezone: Rise of the Black Dogs</a></td>
+			<td class="rmain"><a href="/n64/196739-battlezone-rise-of-the-black-dogs/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196739-battlezone-rise-of-the-black-dogs/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196739-battlezone-rise-of-the-black-dogs/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196739-battlezone-rise-of-the-black-dogs/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196739-battlezone-rise-of-the-black-dogs/images">Images</a></td>
+			<td><a href="/n64/196739-battlezone-rise-of-the-black-dogs/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196739-battlezone-rise-of-the-black-dogs">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196751-beetle-adventure-racing">Beetle Adventure Racing</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/cheats">Cheats</a></td>
+						<td><a href="/n64/196751-beetle-adventure-racing/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196751-beetle-adventure-racing/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196751-beetle-adventure-racing/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196751-beetle-adventure-racing/images">Images</a></td>
+			<td><a href="/n64/196751-beetle-adventure-racing/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196751-beetle-adventure-racing">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196757-big-mountain-2000">Big Mountain 2000</a></td>
+			<td class="rmain"><a href="/n64/196757-big-mountain-2000/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196757-big-mountain-2000/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196757-big-mountain-2000/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196757-big-mountain-2000/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196757-big-mountain-2000/images">Images</a></td>
+			<td><a href="/n64/196757-big-mountain-2000/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196757-big-mountain-2000">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196759-bio-freaks">Bio FREAKS</a></td>
+			<td class="rmain"><a href="/n64/196759-bio-freaks/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196759-bio-freaks/cheats">Cheats</a></td>
+						<td><a href="/n64/196759-bio-freaks/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196759-bio-freaks/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196759-bio-freaks/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196759-bio-freaks/images">Images</a></td>
+			<td><a href="/n64/196759-bio-freaks/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196759-bio-freaks">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/198457-resident-evil-2">BioHazard 2</a></td>
+			<td class="rmain"><a href="/n64/198457-resident-evil-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/198457-resident-evil-2/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/198457-resident-evil-2/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/198457-resident-evil-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/198457-resident-evil-2/images">Images</a></td>
+			<td><a href="/n64/198457-resident-evil-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/198457-resident-evil-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a class="cancel" href="/n64/284235-blade-and-barrel">Blade &amp; Barrel</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td>---</td>
+			<td><a href="/n64/284235-blade-and-barrel/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/284235-blade-and-barrel">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196774-blast-corps">Blast Corps</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/cheats">Cheats</a></td>
+						<td><a href="/n64/196774-blast-corps/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196774-blast-corps/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196774-blast-corps/images">Images</a></td>
+			<td><a href="/n64/196774-blast-corps/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196774-blast-corps">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196774-blast-corps">Blast Dozer</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/cheats">Cheats</a></td>
+						<td><a href="/n64/196774-blast-corps/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196774-blast-corps/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196774-blast-corps/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196774-blast-corps/images">Images</a></td>
+			<td><a href="/n64/196774-blast-corps/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196774-blast-corps">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196792-blues-brothers-2000">Blues Brothers 2000</a></td>
+			<td class="rmain"><a href="/n64/196792-blues-brothers-2000/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196792-blues-brothers-2000/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196792-blues-brothers-2000/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196792-blues-brothers-2000/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196792-blues-brothers-2000/images">Images</a></td>
+			<td><a href="/n64/196792-blues-brothers-2000/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196792-blues-brothers-2000">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196796-body-harvest">Body Harvest</a></td>
+			<td class="rmain"><a href="/n64/196796-body-harvest/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196796-body-harvest/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196796-body-harvest/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196796-body-harvest/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196796-body-harvest/images">Images</a></td>
+			<td><a href="/n64/196796-body-harvest/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196796-body-harvest">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197528-harvest-moon-64">Bokujou Monogatari 2</a></td>
+			<td class="rmain"><a href="/n64/197528-harvest-moon-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197528-harvest-moon-64/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197528-harvest-moon-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197528-harvest-moon-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197528-harvest-moon-64/images">Images</a></td>
+			<td><a href="/n64/197528-harvest-moon-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197528-harvest-moon-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196799-bomberman-64">Bomberman 64</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/cheats">Cheats</a></td>
+						<td><a href="/n64/196799-bomberman-64/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196799-bomberman-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196799-bomberman-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196799-bomberman-64/images">Images</a></td>
+			<td><a href="/n64/196799-bomberman-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196799-bomberman-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/924863-bomberman-64-japan">Bomberman 64</a></td>
+			<td class="rmain"><a href="/n64/924863-bomberman-64-japan/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/924863-bomberman-64-japan/answers">Q&amp;A</a></td>
+			<td><a href="/n64/924863-bomberman-64-japan/images">Images</a></td>
+			<td><a href="/n64/924863-bomberman-64-japan/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/924863-bomberman-64-japan">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/257793-bomberman-64-the-second-attack">Bomberman 64: The Second Attack!</a></td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/257793-bomberman-64-the-second-attack/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/257793-bomberman-64-the-second-attack/answers">Q&amp;A</a></td>
+			<td><a href="/n64/257793-bomberman-64-the-second-attack/images">Images</a></td>
+			<td><a href="/n64/257793-bomberman-64-the-second-attack/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/257793-bomberman-64-the-second-attack">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196801-bomberman-hero">Bomberman Hero</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/cheats">Cheats</a></td>
+						<td><a href="/n64/196801-bomberman-hero/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196801-bomberman-hero/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196801-bomberman-hero/images">Images</a></td>
+			<td><a href="/n64/196801-bomberman-hero/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196801-bomberman-hero">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196801-bomberman-hero">Bomberman Hero: Milian Oujo o Sukue!</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/cheats">Cheats</a></td>
+						<td><a href="/n64/196801-bomberman-hero/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196801-bomberman-hero/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196801-bomberman-hero/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196801-bomberman-hero/images">Images</a></td>
+			<td><a href="/n64/196801-bomberman-hero/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196801-bomberman-hero">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/575340-bottom-of-the-9th">Bottom of the 9th</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/575340-bottom-of-the-9th/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/575340-bottom-of-the-9th/answers">Q&amp;A</a></td>
+			<td><a href="/n64/575340-bottom-of-the-9th/images">Images</a></td>
+			<td><a href="/n64/575340-bottom-of-the-9th/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/575340-bottom-of-the-9th">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197746-knockout-kings-2000">Box Champions 2000</a></td>
+			<td class="rmain"><a href="/n64/197746-knockout-kings-2000/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197746-knockout-kings-2000/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197746-knockout-kings-2000/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197746-knockout-kings-2000/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197746-knockout-kings-2000/images">Images</a></td>
+			<td><a href="/n64/197746-knockout-kings-2000/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197746-knockout-kings-2000">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/915910-brunswick-circuit-pro-bowling">Brunswick Circuit Pro Bowling</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/915910-brunswick-circuit-pro-bowling/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/915910-brunswick-circuit-pro-bowling/answers">Q&amp;A</a></td>
+			<td><a href="/n64/915910-brunswick-circuit-pro-bowling/images">Images</a></td>
+			<td><a href="/n64/915910-brunswick-circuit-pro-bowling/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/915910-brunswick-circuit-pro-bowling">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196835-buck-bumble">Buck Bumble</a></td>
+			<td class="rmain"><a href="/n64/196835-buck-bumble/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196835-buck-bumble/cheats">Cheats</a></td>
+						<td><a href="/n64/196835-buck-bumble/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196835-buck-bumble/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196835-buck-bumble/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196835-buck-bumble/images">Images</a></td>
+			<td><a href="/n64/196835-buck-bumble/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196835-buck-bumble">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196523-a-bugs-life">Bug&#039;s Life, A</a></td>
+			<td class="rmain"><a href="/n64/196523-a-bugs-life/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196523-a-bugs-life/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196523-a-bugs-life/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196523-a-bugs-life/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196523-a-bugs-life/images">Images</a></td>
+			<td><a href="/n64/196523-a-bugs-life/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196523-a-bugs-life">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196850-bust-a-move-99">Bust-A-Move &#039;99</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/cheats">Cheats</a></td>
+						<td><a href="/n64/196850-bust-a-move-99/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196850-bust-a-move-99/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196850-bust-a-move-99/images">Images</a></td>
+			<td><a href="/n64/196850-bust-a-move-99/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196850-bust-a-move-99">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196853-bust-a-move-2-arcade-edition">Bust-A-Move 2 Arcade Edition</a></td>
+			<td class="rmain"><a href="/n64/196853-bust-a-move-2-arcade-edition/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196853-bust-a-move-2-arcade-edition/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196853-bust-a-move-2-arcade-edition/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196853-bust-a-move-2-arcade-edition/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196853-bust-a-move-2-arcade-edition/images">Images</a></td>
+			<td><a href="/n64/196853-bust-a-move-2-arcade-edition/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196853-bust-a-move-2-arcade-edition">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196850-bust-a-move-99">Bust-A-Move 3 DX</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/cheats">Cheats</a></td>
+						<td><a href="/n64/196850-bust-a-move-99/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196850-bust-a-move-99/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196850-bust-a-move-99/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196850-bust-a-move-99/images">Images</a></td>
+			<td><a href="/n64/196850-bust-a-move-99/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196850-bust-a-move-99">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196863-california-speed">California Speed</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/196863-california-speed/cheats">Cheats</a></td>
+						<td><a href="/n64/196863-california-speed/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196863-california-speed/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196863-california-speed/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196863-california-speed/images">Images</a></td>
+			<td><a href="/n64/196863-california-speed/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196863-california-speed">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196871-carmageddon-64">Carmageddon 64</a></td>
+			<td class="rmain"><a href="/n64/196871-carmageddon-64/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196871-carmageddon-64/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196871-carmageddon-64/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196871-carmageddon-64/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196871-carmageddon-64/images">Images</a></td>
+			<td><a href="/n64/196871-carmageddon-64/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196871-carmageddon-64">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196882-castlevania">Castlevania</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/cheats">Cheats</a></td>
+						<td><a href="/n64/196882-castlevania/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196882-castlevania/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196882-castlevania/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196882-castlevania/images">Images</a></td>
+			<td><a href="/n64/196882-castlevania/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196882-castlevania">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196883-castlevania-legacy-of-darkness">Castlevania: Legacy of Darkness</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/cheats">Cheats</a></td>
+						<td><a href="/n64/196883-castlevania-legacy-of-darkness/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196883-castlevania-legacy-of-darkness/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196883-castlevania-legacy-of-darkness/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196883-castlevania-legacy-of-darkness/images">Images</a></td>
+			<td><a href="/n64/196883-castlevania-legacy-of-darkness/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196883-castlevania-legacy-of-darkness">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576247-lets-smash">Centre Court Tennis</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576247-lets-smash/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576247-lets-smash/images">Images</a></td>
+			<td><a href="/n64/576247-lets-smash/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576247-lets-smash">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196896-chameleon-twist">Chameleon Twist</a></td>
+			<td class="rmain"><a href="/n64/196896-chameleon-twist/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196896-chameleon-twist/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196896-chameleon-twist/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196896-chameleon-twist/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196896-chameleon-twist/images">Images</a></td>
+			<td><a href="/n64/196896-chameleon-twist/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196896-chameleon-twist">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196897-chameleon-twist-2">Chameleon Twist 2</a></td>
+			<td class="rmain"><a href="/n64/196897-chameleon-twist-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196897-chameleon-twist-2/cheats">Cheats</a></td>
+						<td><a href="/n64/196897-chameleon-twist-2/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196897-chameleon-twist-2/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196897-chameleon-twist-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196897-chameleon-twist-2/images">Images</a></td>
+			<td><a href="/n64/196897-chameleon-twist-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196897-chameleon-twist-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196901-charlie-blasts-territory">Charlie Blast&#039;s Territory</a></td>
+			<td class="rmain"><a href="/n64/196901-charlie-blasts-territory/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196901-charlie-blasts-territory/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196901-charlie-blasts-territory/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196901-charlie-blasts-territory/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196901-charlie-blasts-territory/images">Images</a></td>
+			<td><a href="/n64/196901-charlie-blasts-territory/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196901-charlie-blasts-territory">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196913-chopper-attack">Chopper Attack</a></td>
+			<td class="rmain"><a href="/n64/196913-chopper-attack/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196913-chopper-attack/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196913-chopper-attack/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196913-chopper-attack/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196913-chopper-attack/images">Images</a></td>
+			<td><a href="/n64/196913-chopper-attack/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196913-chopper-attack">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/198272-penny-racers">Choro Q 64</a></td>
+			<td class="rmain"><a href="/n64/198272-penny-racers/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/198272-penny-racers/cheats">Cheats</a></td>
+						<td><a href="/n64/198272-penny-racers/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/198272-penny-racers/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/198272-penny-racers/answers">Q&amp;A</a></td>
+			<td><a href="/n64/198272-penny-racers/images">Images</a></td>
+			<td><a href="/n64/198272-penny-racers/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/198272-penny-racers">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576600-choro-q-64-2">Choro Q 64 2</a></td>
+			<td class="rmain"><a href="/n64/576600-choro-q-64-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/576600-choro-q-64-2/cheats">Cheats</a></td>
+						<td><a href="/n64/576600-choro-q-64-2/saves">Saves</a></td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576600-choro-q-64-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576600-choro-q-64-2/images">Images</a></td>
+			<td><a href="/n64/576600-choro-q-64-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576600-choro-q-64-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576600-choro-q-64-2">Choro Q 64 2: Hacha Mecha Grand Prix Race</a></td>
+			<td class="rmain"><a href="/n64/576600-choro-q-64-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/576600-choro-q-64-2/cheats">Cheats</a></td>
+						<td><a href="/n64/576600-choro-q-64-2/saves">Saves</a></td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576600-choro-q-64-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576600-choro-q-64-2/images">Images</a></td>
+			<td><a href="/n64/576600-choro-q-64-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576600-choro-q-64-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/198684-snowboard-kids-2">Chou Snobow Kids</a></td>
+			<td class="rmain"><a href="/n64/198684-snowboard-kids-2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/198684-snowboard-kids-2/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/198684-snowboard-kids-2/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/198684-snowboard-kids-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/198684-snowboard-kids-2/images">Images</a></td>
+			<td><a href="/n64/198684-snowboard-kids-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/198684-snowboard-kids-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king">Chou-Kuukan Night Pro Yakyuu King</a></td>
+			<td class="rmain"><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king/images">Images</a></td>
+			<td><a href="/n64/574506-chou-kuukan-night-pro-yakyuu-king/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574506-chou-kuukan-night-pro-yakyuu-king">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/576680-chou-kuukan-night-pro-yakyuu-king-2">Chou-Kuukan Night Pro Yakyuu King 2</a></td>
+			<td class="rmain"><a href="/n64/576680-chou-kuukan-night-pro-yakyuu-king-2/faqs">Guides</a></td>
+			<td class="rmain">---</td>
+						<td>---</td>
+			<td class="rmain">---</td>
+						<td><a href="/n64/576680-chou-kuukan-night-pro-yakyuu-king-2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/576680-chou-kuukan-night-pro-yakyuu-king-2/images">Images</a></td>
+			<td><a href="/n64/576680-chou-kuukan-night-pro-yakyuu-king-2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/576680-chou-kuukan-night-pro-yakyuu-king-2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197500-gt-64-championship-edition">City Tour Grand Prix: Zen Nihon GT Senshuken</a></td>
+			<td class="rmain"><a href="/n64/197500-gt-64-championship-edition/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197500-gt-64-championship-edition/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197500-gt-64-championship-edition/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197500-gt-64-championship-edition/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197500-gt-64-championship-edition/images">Images</a></td>
+			<td><a href="/n64/197500-gt-64-championship-edition/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197500-gt-64-championship-edition">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196934-clayfighter-63-1-3">ClayFighter 63 1/3</a></td>
+			<td class="rmain"><a href="/n64/196934-clayfighter-63-1-3/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196934-clayfighter-63-1-3/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/196934-clayfighter-63-1-3/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196934-clayfighter-63-1-3/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196934-clayfighter-63-1-3/images">Images</a></td>
+			<td><a href="/n64/196934-clayfighter-63-1-3/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196934-clayfighter-63-1-3">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/574483-clayfighter-the-sculptors-cut">ClayFighter: The Sculptor&#039;s Cut</a></td>
+			<td class="rmain"><a href="/n64/574483-clayfighter-the-sculptors-cut/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/574483-clayfighter-the-sculptors-cut/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/574483-clayfighter-the-sculptors-cut/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/574483-clayfighter-the-sculptors-cut/answers">Q&amp;A</a></td>
+			<td><a href="/n64/574483-clayfighter-the-sculptors-cut/images">Images</a></td>
+			<td><a href="/n64/574483-clayfighter-the-sculptors-cut/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/574483-clayfighter-the-sculptors-cut">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196958-command-and-conquer">Command &amp; Conquer</a></td>
+			<td class="rmain"><a href="/n64/196958-command-and-conquer/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196958-command-and-conquer/cheats">Cheats</a></td>
+						<td><a href="/n64/196958-command-and-conquer/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196958-command-and-conquer/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196958-command-and-conquer/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196958-command-and-conquer/images">Images</a></td>
+			<td><a href="/n64/196958-command-and-conquer/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196958-command-and-conquer">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/196973-conkers-bad-fur-day">Conker&#039;s Bad Fur Day</a></td>
+			<td class="rmain"><a href="/n64/196973-conkers-bad-fur-day/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/196973-conkers-bad-fur-day/cheats">Cheats</a></td>
+						<td><a href="/n64/196973-conkers-bad-fur-day/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/196973-conkers-bad-fur-day/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/196973-conkers-bad-fur-day/answers">Q&amp;A</a></td>
+			<td><a href="/n64/196973-conkers-bad-fur-day/images">Images</a></td>
+			<td><a href="/n64/196973-conkers-bad-fur-day/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/196973-conkers-bad-fur-day">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/199325-world-cup-98">Copa del Mundo: Francia 98</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/199325-world-cup-98/answers">Q&amp;A</a></td>
+			<td><a href="/n64/199325-world-cup-98/images">Images</a></td>
+			<td><a href="/n64/199325-world-cup-98/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/199325-world-cup-98">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/199325-world-cup-98">Copa Do Mundo 98</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/199325-world-cup-98/answers">Q&amp;A</a></td>
+			<td><a href="/n64/199325-world-cup-98/images">Images</a></td>
+			<td><a href="/n64/199325-world-cup-98/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/199325-world-cup-98">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/199325-world-cup-98">Coupe du Monde 98</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/199325-world-cup-98/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/199325-world-cup-98/answers">Q&amp;A</a></td>
+			<td><a href="/n64/199325-world-cup-98/images">Images</a></td>
+			<td><a href="/n64/199325-world-cup-98/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/199325-world-cup-98">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/374847-cruisn-exotica">Cruis&#039;n  Exotica</a></td>
+			<td class="rmain"><a href="/n64/374847-cruisn-exotica/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/374847-cruisn-exotica/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/374847-cruisn-exotica/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/374847-cruisn-exotica/answers">Q&amp;A</a></td>
+			<td><a href="/n64/374847-cruisn-exotica/images">Images</a></td>
+			<td><a href="/n64/374847-cruisn-exotica/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/374847-cruisn-exotica">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197003-cruisn-usa">Cruis&#039;n USA</a></td>
+			<td class="rmain"><a href="/n64/197003-cruisn-usa/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197003-cruisn-usa/cheats">Cheats</a></td>
+						<td><a href="/n64/197003-cruisn-usa/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/197003-cruisn-usa/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197003-cruisn-usa/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197003-cruisn-usa/images">Images</a></td>
+			<td><a href="/n64/197003-cruisn-usa/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197003-cruisn-usa">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197004-cruisn-world">Cruis&#039;n World</a></td>
+			<td class="rmain"><a href="/n64/197004-cruisn-world/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197004-cruisn-world/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197004-cruisn-world/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197004-cruisn-world/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197004-cruisn-world/images">Images</a></td>
+			<td><a href="/n64/197004-cruisn-world/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197004-cruisn-world">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197016-custom-robo">Custom Robo</a></td>
+			<td class="rmain"><a href="/n64/197016-custom-robo/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/197016-custom-robo/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/197016-custom-robo/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197016-custom-robo/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197016-custom-robo/images">Images</a></td>
+			<td><a href="/n64/197016-custom-robo/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197016-custom-robo">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/374873-custom-robo-v2">Custom Robo V2</a></td>
+			<td class="rmain"><a href="/n64/374873-custom-robo-v2/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/374873-custom-robo-v2/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/374873-custom-robo-v2/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/374873-custom-robo-v2/answers">Q&amp;A</a></td>
+			<td><a href="/n64/374873-custom-robo-v2/images">Images</a></td>
+			<td><a href="/n64/374873-custom-robo-v2/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/374873-custom-robo-v2">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/197025-cybertiger">CyberTiger</a></td>
+			<td class="rmain">---</td>
+			<td class="rmain"><a href="/n64/197025-cybertiger/cheats">Cheats</a></td>
+						<td><a href="/n64/197025-cybertiger/saves">Saves</a></td>
+			<td class="rmain"><a href="/n64/197025-cybertiger/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/197025-cybertiger/answers">Q&amp;A</a></td>
+			<td><a href="/n64/197025-cybertiger/images">Images</a></td>
+			<td><a href="/n64/197025-cybertiger/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/197025-cybertiger">Board</a></td>
+		</tr>
+				<tr>
+			<td class="rtitle"><a href="/n64/250578-duck-dodgers-starring-daffy-duck">Daffy Duck Starring As Duck Dodgers</a></td>
+			<td class="rmain"><a href="/n64/250578-duck-dodgers-starring-daffy-duck/faqs">Guides</a></td>
+			<td class="rmain"><a href="/n64/250578-duck-dodgers-starring-daffy-duck/cheats">Cheats</a></td>
+						<td>---</td>
+			<td class="rmain"><a href="/n64/250578-duck-dodgers-starring-daffy-duck/reviews">Reviews</a>
+			</td>
+						<td><a href="/n64/250578-duck-dodgers-starring-daffy-duck/answers">Q&amp;A</a></td>
+			<td><a href="/n64/250578-duck-dodgers-starring-daffy-duck/images">Images</a></td>
+			<td><a href="/n64/250578-duck-dodgers-starring-daffy-duck/videos">Videos</a></td>
+			<td class="rmain"><a href="/boards/250578-duck-dodgers-starring-daffy-duck">Board</a></td>
+		</tr>
+				</table>
+	</div>
+</div>
+
+<div class="pod">
+	<div class="body">
+		<span class="cancel">Cancelled</span> game | <span class="update">New or updated</span> content | <span class="unrel">Not yet released</span> game
+	</div>
+</div>
+
+<div class="pod">
+	<div class="body">
+		<form method="get" action="/n64/category/999-all"><input type="hidden" name="region" value="0"><input type="hidden" name="dist" value="0">
+		<ul class="paginate">
+						<li>Page 			<select id="pagejump" onchange="location='?page=' + options[selectedIndex].value;">
+												<option value="0" selected="selected">1</option>
+															<option value="1">2</option>
+															<option value="2">3</option>
+															<option value="3">4</option>
+															<option value="4">5</option>
+															<option value="5">6</option>
+										</select>
+			 of 6</li>
+			<li><a href="/n64/category/999-all?page=1">Next <i class="fa fa-angle-right"></i></a></li>		</ul>
+		</form>
+	</div>
+</div>
+
+								
+							</div>
+						</div>
+														</div>
+				
+								<div class="js-mapped-ad ad ad_leader_bottom" data-ad-type="leader_bottom"><div class="ad_wrap "></div></div>
+				
+			</div>
+						<div class="js-mapped-ad ad ad_interstitial" data-ad-type="interstitial"><div class="ad_wrap "></div></div>
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/" class="footer_logo_gf">GameFAQs</a><a href="http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/user/change_color?site_color=blue&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-blue&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=red&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-red&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=green&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-green&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=orange&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-orange&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=purple&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=dark-purple&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=cloudy&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=grayscale&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=sepia&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/user/change_color?site_color=cottoncandy&amp;path=%2Fn64%2Fcategory%2F999-all%3Fpage%3D0">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row"><p><a href="https://www.gamespot.com/?utm_source=gamefaqs&utm_medium=partner&utm_content=footer&utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a></p><p><span class="footer_break"></span><a href="http://gamefaqs.gamespot.com/sitemap">Sitemap</a><a href="mailto:gamespotpartnerships@redventures.com">Partnerships</a><a href="https://careers.redventures.com/">Careers</a><a href="https://redventures.com/CMG-terms-of-use.html">Terms of Use</a></p><p><span class="footer_break"></span><a href="https://redventures.com/privacy-policy.html">Privacy Policy</a><a class="ot-sdk-show-settings">Cookie Settings</a><a href="https://privacyportal.onetrust.com/webform/79ba7c84-ebc2-4740-8d11-bf1cc4501e59/ae88e03f-2b16-4276-9980-27124ba4b2c1">Do Not Sell My Information</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2021 GAMESPOT, A RED VENTURES COMPANY. ALL RIGHTS RESERVED.</p></div></div></footer>
+
+
+							
+		</div>
+		
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		
+<script type="text/javascript">
+window.BidBarrel.queue.push(function(resolve){
+	const googletag = window.googletag;
+	googletag.cmd.push(function(){ googletag.pubads().addEventListener('slotRenderEnded',revdbg); });
+	resolve();
+});
+
+// utag_data
+(function(){ let utag_data;try{ utag_data=JSON.parse($('#utag-data').attr('content')); }catch(e){ utag_data={}; }window.utag_data=$.extend({},window.utag_data,utag_data); })();
+</script>
+
+<script type="text/plain" class="optanon-category-C0002">
+    (function(a,b,c,d){    
+    a='//tags.tiqcdn.com/utag/redventures/gamefaqssite/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+
+<script src="/a/js/adDivManager.20210707211707.js"></script>
+<script src="/a/js/adManager.20210707211707.js"></script>		
+<!--Page built in 28.2 ms on 2021-07-11 05:13:23 on box #12 (CSS 20210707211707 JS 20210707211707)- O 13.8 / S 8.7 / M 5.7 / U 0 / SC 5-->
+			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"NRBR-a22c617a7b2aab2da1c","applicationID":"578849005","transactionName":"NgYBNkBYWEEEAURQWg9MNhBbFkZTAgdDFkUNAhcEXUtbHBUKQA==","queueTime":0,"applicationTime":28,"atts":"GkECQAhCS08=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
