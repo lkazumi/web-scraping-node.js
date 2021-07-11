@@ -5,7 +5,7 @@ const { resolve } = require('path');
 
 const BASE_URL = 'view-source:gamefaqs.gamespot.com';
 
-const browserHeaders = {
+const BROWSER_HEADER = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-encoding': 'gzip, deflate, br',
     'accept-language':' pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
@@ -65,7 +65,7 @@ const readFromFile = (filename) => {
 const getPage = (path) => {
     const url = `${BASE_URL}${path}`;
     const options = {
-        headers: browserHeaders,
+        headers: BROWSER_HEADER,
     };
     return axios.get(url, options).then((response) => response.data);
 };
